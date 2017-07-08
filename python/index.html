@@ -1,0 +1,811 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Ali Akbar's Homepage for UAI">
+      
+      
+        <link rel="canonical" href="http://uai.aliakbars.com/python/">
+      
+      
+        <meta name="author" content="Ali Akbar Septiandri">
+      
+      
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
+      
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.7.4">
+    
+    
+      
+        <title>Python Programming - Universitas Al Azhar Indonesia</title>
+      
+    
+    
+      <script src="../assets/javascripts/modernizr-1df76c4e58.js"></script>
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application-769c285a91.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-02c2a4388f.palette.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+  
+  
+  
+    <body data-md-color-primary="yellow" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <a href="http://uai.aliakbars.com" title="Universitas Al Azhar Indonesia" class="md-icon md-icon--home md-header-nav__button">
+          </a>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+                <span class="md-header-nav__parent">
+                  Courses
+                </span>
+              
+            
+            Python Programming
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result" data-md-lang-search="">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/aliakbars/uai" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      aliakbars/uai
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    
+      <i class="md-icon md-icon--home md-nav__button"></i>
+    
+    Universitas Al Azhar Indonesia
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/aliakbars/uai" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      aliakbars/uai
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Courses
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Courses
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ai/" title="Artificial Intelligence" class="md-nav__link">
+      Artificial Intelligence
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../data-mining/" title="Data Mining" class="md-nav__link">
+      Data Mining
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Python Programming
+      </label>
+    
+    <a href="./" title="Python Programming" class="md-nav__link md-nav__link--active">
+      Python Programming
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hello-world" title="Hello, World!" class="md-nav__link">
+    Hello, World!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pemrograman-berorientasi-objek" title="Pemrograman Berorientasi Objek" class="md-nav__link">
+    Pemrograman Berorientasi Objek
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-1" title="Tugas 1" class="md-nav__link">
+    Tugas 1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pemrograman-web" title="Pemrograman Web" class="md-nav__link">
+    Pemrograman Web
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-2" title="Tugas 2" class="md-nav__link">
+    Tugas 2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ulasan-materi" title="Ulasan Materi" class="md-nav__link">
+    Ulasan Materi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proposal-tugas-akhir" title="Proposal Tugas Akhir" class="md-nav__link">
+    Proposal Tugas Akhir
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data" title="Data" class="md-nav__link">
+    Data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-3" title="Tugas 3" class="md-nav__link">
+    Tugas 3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artificial-intelligence" title="Artificial Intelligence" class="md-nav__link">
+    Artificial Intelligence
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-4" title="Tugas 4" class="md-nav__link">
+    Tugas 4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementasi-lain" title="Implementasi Lain" class="md-nav__link">
+    Implementasi Lain
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-akhir" title="Tugas Akhir" class="md-nav__link">
+    Tugas Akhir
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Python Projects
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Python Projects
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../projects/" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../projects/chatbot/" title="Chatbot" class="md-nav__link">
+      Chatbot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../projects/concert/" title="Concert" class="md-nav__link">
+      Concert
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../projects/image/" title="Image Classification" class="md-nav__link">
+      Image Classification
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../projects/naive-bayes/" title="Naive Bayes" class="md-nav__link">
+      Naive Bayes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../projects/quiz/" title="Quiz" class="md-nav__link">
+      Quiz
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../projects/tictactoe/" title="Tic-Tac-Toe" class="md-nav__link">
+      Tic-Tac-Toe
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../faq/" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hello-world" title="Hello, World!" class="md-nav__link">
+    Hello, World!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pemrograman-berorientasi-objek" title="Pemrograman Berorientasi Objek" class="md-nav__link">
+    Pemrograman Berorientasi Objek
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-1" title="Tugas 1" class="md-nav__link">
+    Tugas 1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pemrograman-web" title="Pemrograman Web" class="md-nav__link">
+    Pemrograman Web
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-2" title="Tugas 2" class="md-nav__link">
+    Tugas 2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ulasan-materi" title="Ulasan Materi" class="md-nav__link">
+    Ulasan Materi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proposal-tugas-akhir" title="Proposal Tugas Akhir" class="md-nav__link">
+    Proposal Tugas Akhir
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data" title="Data" class="md-nav__link">
+    Data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-3" title="Tugas 3" class="md-nav__link">
+    Tugas 3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artificial-intelligence" title="Artificial Intelligence" class="md-nav__link">
+    Artificial Intelligence
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-4" title="Tugas 4" class="md-nav__link">
+    Tugas 4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementasi-lain" title="Implementasi Lain" class="md-nav__link">
+    Implementasi Lain
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-akhir" title="Tugas Akhir" class="md-nav__link">
+    Tugas Akhir
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="python-programming">Python Programming<a class="headerlink" href="#python-programming" title="Permanent link">&para;</a></h1>
+<p>Materi yang diberikan di kelas dan referensi tambahan mengenai kuliah Pemrograman Python. Silakan <em>clone</em> repositori yang tersedia di <a href="https://github.com/aliakbars/uai-python/&quot;">sini</a> untuk mendapatkan kode yang digunakan di kelas. Jawaban ujian bisa dilihat di <a href="https://www.dropbox.com/s/bau4ejxozqh41xh/jawaban.py?dl=0">sini</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Umpan balik</p>
+<p>Mohon untuk mengisi formulir umpan balik perkuliahan di <a href="https://goo.gl/forms/0bc40xTTApSznz3y2">sini</a></p>
+</div>
+<h2 id="hello-world">Hello, World!<a class="headerlink" href="#hello-world" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/01-hello.pdf">Salindia minggu ke-1: Hello, Python!</a></p>
+<p>Kuliah ini akan menggunakan Python 2.7 dengan asumsi bahwa Anda sudah familiar dengan pengembangan program secara umum. Akan ada beberapa script yang disediakan untuk menunjang perkuliahan, silakan unduh sebelum kelas dimulai.</p>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/02-struktur-data.pdf">Salindia minggu ke-2: Struktur Data &amp; Pemrograman Fungsional</a></p>
+<p>Untuk tahu lebih lanjut tentang bahasa pemrograman fungsional dan apa yang bisa dilakukan, silakan melihat bahasa pemrograman seperti <a href="https://www.common-lisp.net/">LISP</a> atau (lebih disarankan) <a href="https://www.haskell.org">Haskell</a>. Pemrograman dengan paradigma fungsional dimaksudkan untuk meniru pola fungsi matematis sehingga memudahkan saat <em>debugging</em>. Akan menyulitkan di awal untuk mengubah pola pikir <a href="https://tylermcginnis.com/imperative-vs-declarative-programming/">imperatif menjadi deklaratif</a>, tetapi seharusnya bisa berguna di kemudian hari.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Silakan evaluasi jawaban kuis Anda di situs <a href="https://code.google.com/codejam/contest/32016/dashboard#s=p0">Google Code Jam</a>.</p>
+</div>
+<h2 id="pemrograman-berorientasi-objek">Pemrograman Berorientasi Objek<a class="headerlink" href="#pemrograman-berorientasi-objek" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/03-oop.pdf">Salindia minggu ke-3: Pemrograman Berorientasi Objek</a></p>
+<p>Setelah membahas tentang Python dalam paradigma pemrograman fungsional, kali ini akan diulas tentang Python dalam paradigma pemrograman berorientasi objek (OOP). Namun, kuliah ini tidak membahas secara mendalam tentang konsep-konsep dalam OOP itu sendiri, e.g. <em>inheritance, dynamic binding, encapsulation</em>. Fokus dari materi kali ini adalah bagaimana konsep-konsep tersebut diterjemahkan secara sintaksis dalam bahasa Python. Dokumentasi Python tentang <a href="https://docs.python.org/2.7/tutorial/modules.html">modul</a> dan <a href="https://docs.python.org/2.7/tutorial/classes.html">kelas</a> dapat sangat membantu pemahaman Anda. Untuk belajar bagaimana menganalisis dan mendesain dalam OOP dengan lebih baik, saya sangat menyarankan untuk membaca Head First Object-Oriented Analysis and Design (McLaughlin, et al. 2006).</p>
+<h2 id="tugas-1">Tugas 1<a class="headerlink" href="#tugas-1" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/tugas-1.pdf">Deskripsi Tugas 1</a></p>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/scripts/tugas/tugas1.py">Kode Tugas 1</a></p>
+<p>Dalam tugas pertama ini, Anda diminta untuk menyelesaikan kerangka dari sebuah program untuk permainan poker. Tugas ini akan mengevaluasi kemampuan Anda dalam membuat fungsi, pengolahan string, dan membuat kasus-kasus uji. Harapannya, tugas ini membantu Anda untuk melihat bahwa kasus yang terlihat kompleks ternyata dapat dipecah menjadi potongan-potongan fungsi sederhana yang diintegrasikan.</p>
+<div class="admonition warning">
+<p class="admonition-title">Tenggat</p>
+<p>Selasa, 21 Maret 2017 pukul 23.55</p>
+</div>
+<h2 id="pemrograman-web">Pemrograman Web<a class="headerlink" href="#pemrograman-web" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/04-flask.pdf">Salindia minggu ke-4: Pemrograman Web: Flask</a></p>
+<p>Flask merupakan <em>microframework</em> yang dapat memudahkan pembuatan web sederhana dalam bahasa Python. Dengan menggunakan Flask, implementasi pemrograman web dalam Python bisa semudah mengerjakan web dalam bahasa PHP. Namun, kemudahan ini tentu ada harganya: hilangnya beberapa komponen penting untuk aplikasi skala besar. Tidak adanya kemampuan Flask untuk sanitasi input maupun pembuatan basis data dengan <em>Object Relational Mapper</em> (ORM) secara bawaan terkadang bisa membuat kode jadi lebih rumit. Namun, perlu diingat sekali lagi bahwa Flask memang ditujukan untuk program skala kecil, misalnya untuk pembuatan purwarupa.</p>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/05-scraping.pdf">Salindia minggu ke-5: Pemrograman Web: Scraping</a></p>
+<p>Terkadang, kita perlu untuk mengambil sendiri data dari laman web. Beberapa web yang tidak menyediakan API mengharuskan kita untuk membuka sendiri laman tersebut lalu mengekstraksi informasinya satu per satu. Dengan melakukan <em>scraping</em>, kita bisa mengotomasi proses tersebut. Python mempunyai pustaka untuk melakukan hal tersebut dengan cukup mudah: Requests dan Beautiful Soup. Namun, ingat bahwa <em>scraping</em> sejatinya sering berada di posisi abu-abu - antara boleh atau tidak. Jadi, <em>be responsible</em>!</p>
+<h2 id="tugas-2">Tugas 2<a class="headerlink" href="#tugas-2" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/tugas-2.pdf">Deskripsi Tugas 2</a></p>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/tim.txt">Pembagian Tim Tugas 2</a></p>
+<p>Anda akan mengerjakan tugas kedua dengan <em>pair programming</em>. Kelompoknya sudah dibagikan seperti file yang dilampirkan di atas. Selain itu, Anda diwajibkan menggunakan repositori yang telah disediakan di <a href="https://github.com/uai-python">GitHub</a>. Perhatikan bahwa <strong>pengumpulan tugas</strong> tetap harus dilakukan melalui <strong>situs e-learning</strong>!</p>
+<div class="admonition warning">
+<p class="admonition-title">Tenggat</p>
+<p>Rabu, 5 April 2017 pukul 23.55</p>
+</div>
+<h2 id="ulasan-materi">Ulasan Materi<a class="headerlink" href="#ulasan-materi" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/07-review.pdf">Salindia minggu ke-7: Ulasan</a></p>
+<p>Minggu ini tidak ada materi tambahan. Kelas akan digunakan untuk mengulas materi yang telah lalu dan menyampaikan beberapa pengumuman terkait ujian dan sisa perkuliahan.</p>
+<h2 id="proposal-tugas-akhir">Proposal Tugas Akhir<a class="headerlink" href="#proposal-tugas-akhir" title="Permanent link">&para;</a></h2>
+<p><a href="../projects/">Python Projects</a></p>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/proposal.pdf">Template Proposal</a></p>
+<p>Untuk tugas akhir ini, Anda diminta untuk membuat proposal pengajuan topik dan ruang lingkup dari tugas yang Anda akan kerjakan. Secara berkala, Anda juga akan diminta melaporkan progres dari pekerjaan Anda. Dengan demikian, diharapkan pada akhir perkuliahan nanti, setiap mahasiswa dapat menyelesaikan proyeknya sehingga layak untuk didemokan. Setiap materi yang berkaitan dengan tugas akhir ini akan dipos melalui tautan di atas.</p>
+<div class="admonition warning">
+<p class="admonition-title">Pengumpulan</p>
+<p>Submit proposal Anda melalui situs e-learning dengan <strong>format PDF</strong> paling lambat hari <strong>Kamis, 11 Mei 2017 pukul 23.55</strong>.</p>
+</div>
+<h2 id="data">Data<a class="headerlink" href="#data" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/08-data.pdf">Salindia minggu ke-8: Pengolahan Data</a></p>
+<p>Materi minggu ini berkaitan dengan pengolahan, analisis, dan visualisasi data. Beberapa materi akan membutuhkan pengetahuan statistik dan aljabar linear, tetapi akan dibuat sesederhana mungkin sehingga bisa dipahami dengan materi yang pernah diajarkan sejak SMA hingga kuliah tingkat awal. Untuk sisa materi, kita akan banyak berkutat dengan <a href="http://jupyter.org/">Jupyter Notebook</a> sebagai editor dan tempat penyimpanan hasil pekerjaan -- termasuk tugas! Untuk pengguna Windows, disarankan untuk menggunakan <a href="https://www.continuum.io/downloads">Anaconda</a> untuk Python 2.7<a href="https://www.dropbox.com/s/mcjkwd9sskuv52x/kuis.pdf?dl=0&quot;">.</a></p>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/09-visual.pdf">Salindia minggu ke-9: Visualisasi Data</a></p>
+<p>Di minggu ini, Anda akan belajar tentang penggunaan matplotlib sebagai pustaka standar untuk melakukan visualisasi data di Python. Meski agak tertinggal dibandingkan pustaka visualisasi yang lebih interaktif di bahasa lain seperti D3.js, penting untuk memahami dasar-dasar visualisasi dan pustaka yang sebetulnya sangat mumpuni ini. Salindia minggu ini tidak terlalu banyak isinya karena akan lebih banyak didemokan di kelas. Silakan lihat materi visualisasi di <a href="http://nbviewer.jupyter.org/github/aliakbars/uai-python/blob/master/scripts/week9/visualisation.ipynb">notebook ini</a>.</p>
+<h2 id="tugas-3">Tugas 3<a class="headerlink" href="#tugas-3" title="Permanent link">&para;</a></h2>
+<p><a href="http://nbviewer.jupyter.org/github/aliakbars/uai-python/blob/master/scripts/tugas/tugas3.ipynb">Deskripsi Tugas 3</a></p>
+<p>Anda akan mengerjakan tugas ketiga secara perorangan dan materinya akan berhubungan dengan manipulasi dan visualisasi data. Untuk tugas ketiga ini, Anda hanya perlu mengumpulkan file tugas3.ipynb saja melalui situs e-learning!</p>
+<div class="admonition warning">
+<p class="admonition-title">Tenggat</p>
+<p>Selasa, 16 Mei 2017 pukul 23.55</p>
+</div>
+<h2 id="artificial-intelligence">Artificial Intelligence<a class="headerlink" href="#artificial-intelligence" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/10-mlpr.pdf">Salindia minggu ke-10: Machine Learning &amp; Pattern Recognition</a></p>
+<p>Sebagai lanjutan dari materi minggu lalu, kali ini Anda akan dikenalkan dengan pustaka Python untuk melakukan pembelajaran mesin dan pengenalan pola. Karena materi ini membutuhkan keahlian khusus yang mungkin baru didapatkan di tingkat tiga (sebagian juga masuk ke kuliah pilihan), maka banyak materi yang tidak disampaikan saat ini. Harapannya, sedikit contoh ini bisa memberikan gambaran kepada Anda tentang apa yang bisa dilakukan dalam salah satu area kecerdasan buatan yang sedang sangat berkembang ini.</p>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/11-nlp.pdf">Salindia minggu ke-11: Natural Language Processing</a></p>
+<p>Salah satu cabang dari ilmu <em>artificial intelligence</em> (AI) adalah pemrosesan bahasa alami atau <em>natural language processing</em> (NLP). Minggu ini, kita akan membahas beberapa tugas yang biasa dilakukan dalam NLP menggunakan salah satu pustaka yang umum digunakan, yaitu Natural Language Toolkit (NLTK). Kita juga akan melihat hubungan dari NLP dengan pembelajaran mesin yang telah dipelajari minggu lalu.</p>
+<h2 id="tugas-4">Tugas 4<a class="headerlink" href="#tugas-4" title="Permanent link">&para;</a></h2>
+<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-python/blob/master/scripts/tugas/tugas4.ipynb">Deskripsi Tugas 4</a></p>
+<p><a href="https://drive.google.com/open?id=0B5Ei3oQejW8NUkViTXkzOXVpN3c">Dataset Tugas 4</a></p>
+<p><a href="https://drive.google.com/open?id=0B5Ei3oQejW8Nd0ZWYlV0QTJJYlE">Label Dataset Tugas 4</a></p>
+<p>Tugas Anda kali ini adalah melakukan klasifikasi gambar untuk dua jenis dataset: digit dan hewan. Dataset tersebut menggunakan MNIST dan Quick Draw yang baru dirilis oleh Google. Anda hanya akan menggunakan subset dari dataset Quick Draw. Anda mungkin akan perlu untuk belajar sedikit pustaka Keras di <a href="https://drive.google.com/open?id=10V2iEm1KfvjXtJ-tfBt87FVGMeKf0njoHuetmmb3O3w">sini</a>. Subset ini telah disiapkan pada tautan di atas. Untuk tugas keempat ini, Anda hanya perlu mengumpulkan file tugas4.ipynb saja melalui situs e-learning!</p>
+<div class="admonition warning">
+<p class="admonition-title">Tenggat</p>
+<p>Selasa, 6 Juni 2017 pukul 23.55</p>
+</div>
+<h2 id="implementasi-lain">Implementasi Lain<a class="headerlink" href="#implementasi-lain" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-python/blob/master/12-beyond.pdf">Salindia minggu ke-12: Beyond Python</a></p>
+<p>Materi terakhir dalam kuliah Pemrograman Python berisi tentang pengenalan beberapa implementasi interpreter Python dalam berbagai bahasa. Selain itu, dikenalkan juga Cython sebagai bahasa superset dari Python. Terdapat pula penjelasan tentang pemakaian Python di industri.</p>
+<h2 id="tugas-akhir">Tugas Akhir<a class="headerlink" href="#tugas-akhir" title="Permanent link">&para;</a></h2>
+<p>Submit file tugas akhir dalam bentuk folder yang telah di-zip <strong>(ingat, ekstensinya harus .zip, bukan yang lain)</strong>. Sertakan pula file <strong>requirements.txt</strong> yang berisi <em>dependencies</em> dari proyek yang kalian kerjakan. Berikan file <strong>readme</strong> jika diperlukan untuk mengetahui cara menjalankan aplikasi yang telah dibuat. Tugas ini dikumpulkan melalui e-learning.</p>
+<div class="admonition warning">
+<p class="admonition-title">Tenggat</p>
+<p>Jumat, 23 Juni 2017 pukul 23.55</p>
+</div>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../data-mining/" title="Data Mining" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Data Mining
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../projects/" title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Home
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2017 Ali Akbar Septiandri
+          </div>
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://github.com/aliakbars" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://www.linkedin.com/in/aaseptiandri/" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application-c35428f87f.js"></script>
+      
+      
+      <script>app.initialize({url:{base:".."}})</script>
+      
+    
+    
+      
+      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-93695540-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+      
+    
+  </body>
+</html>
