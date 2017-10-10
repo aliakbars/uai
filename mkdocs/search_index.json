@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Ali Akbar Septiandri\n\n\n\n\nHalaman materi perkuliahan untuk \nTeknik Informatika\n, Universitas Al Azhar Indonesia\n\n\n\n\nLowongan\n\n\nSaya sedang membutuhkan lima orang sebagai \npetugas lapangan\n untuk proyek yang sedang saya kerjakan. \nProyek ini berbayar\n dan hanya butuh kesabaran dan ketelatenan saja, tidak perlu kemampuan programming. Hari-H kegiatan adalah tanggal \n28-29 Oktober 2017\n. Jika tertarik atau ingin bertanya lebih lanjut, silakan hubungi saya melalui e-mail di aliakbars[at]live[dot]com dan cantumkan judul \"Lowongan PIT\".\n\n\n\n\nCan Machines Read Your Emotions?\n\n\nVideo sekilas tentang \nneural networks\n dan kemungkinan implementasinya dalam kehidupan sehari-hari\n\n\n\n\n\nLearning Deep Learning\n\n\n\n\nDeep Learning Framework\n\n\nInstalasi dan contoh penggunaan keras.io dapat dilihat di \nsini\n.\n\n\n\n\n\n\nNeural Networks and Deep Learning Books\n\n\nBuku menarik dan gratis yang bisa dijadikan referensi untuk mempelajari \nneural networks\n dan \ndeep learning\n bisa dilihat di \nsini\n atau di \nsini\n.\n\n\n\n\n\n\nMNIST Database\n\n\nTugas paling sederhana yang biasanya digunakan untuk melakukan membandingkan \nsupervised learning algorithms\n bisa dilihat di \nsini\n.\n\n\n\n\nComputing Machinery and Intelligence\n\n\n\n\nQuote\n\n\nI propose to consider the question, \"Can machines think?\" This should begin with definitions of the meaning of the terms \"machine\" and \"think.\" The definitions might be framed so as to reflect so far as possible the normal use of the words, but this attitude is dangerous, If the meaning of the words \"machine\" and \"think\" are to be found by examining how they are commonly used it is difficult to escape the conclusion that the meaning and the answer to the question, \"Can machines think?\" is to be sought in a statistical survey such as a Gallup poll. But this is absurd. Instead of attempting such a definition I shall replace the question by another, which is closely related to it and is expressed in relatively unambiguous words.\n\n\n Alan Turing", 
+            "text": "Ali Akbar Septiandri\n\n\n\n\nHalaman materi perkuliahan untuk \nTeknik Informatika\n, Universitas Al Azhar Indonesia\n\n\nCan Machines Read Your Emotions?\n\n\nVideo sekilas tentang \nneural networks\n dan kemungkinan implementasinya dalam kehidupan sehari-hari\n\n\n\n\n\nLearning Deep Learning\n\n\n\n\nDeep Learning Framework\n\n\nInstalasi dan contoh penggunaan keras.io dapat dilihat di \nsini\n.\n\n\n\n\n\n\nNeural Networks and Deep Learning Books\n\n\nBuku menarik dan gratis yang bisa dijadikan referensi untuk mempelajari \nneural networks\n dan \ndeep learning\n bisa dilihat di \nsini\n atau di \nsini\n.\n\n\n\n\n\n\nMNIST Database\n\n\nTugas paling sederhana yang biasanya digunakan untuk melakukan membandingkan \nsupervised learning algorithms\n bisa dilihat di \nsini\n.\n\n\n\n\nComputing Machinery and Intelligence\n\n\n\n\nQuote\n\n\nI propose to consider the question, \"Can machines think?\" This should begin with definitions of the meaning of the terms \"machine\" and \"think.\" The definitions might be framed so as to reflect so far as possible the normal use of the words, but this attitude is dangerous, If the meaning of the words \"machine\" and \"think\" are to be found by examining how they are commonly used it is difficult to escape the conclusion that the meaning and the answer to the question, \"Can machines think?\" is to be sought in a statistical survey such as a Gallup poll. But this is absurd. Instead of attempting such a definition I shall replace the question by another, which is closely related to it and is expressed in relatively unambiguous words.\n\n\n Alan Turing", 
             "title": "Home"
         }, 
         {
             "location": "/#ali-akbar-septiandri", 
-            "text": "Halaman materi perkuliahan untuk  Teknik Informatika , Universitas Al Azhar Indonesia   Lowongan  Saya sedang membutuhkan lima orang sebagai  petugas lapangan  untuk proyek yang sedang saya kerjakan.  Proyek ini berbayar  dan hanya butuh kesabaran dan ketelatenan saja, tidak perlu kemampuan programming. Hari-H kegiatan adalah tanggal  28-29 Oktober 2017 . Jika tertarik atau ingin bertanya lebih lanjut, silakan hubungi saya melalui e-mail di aliakbars[at]live[dot]com dan cantumkan judul \"Lowongan PIT\".", 
+            "text": "Halaman materi perkuliahan untuk  Teknik Informatika , Universitas Al Azhar Indonesia", 
             "title": "Ali Akbar Septiandri"
         }, 
         {
@@ -207,18 +207,13 @@
         }, 
         {
             "location": "/daspro/", 
-            "text": "Dasar Pemrograman\n\n\nPengumuman\n\n\n\n\nLowongan\n\n\nSaya sedang membutuhkan lima orang sebagai \npetugas lapangan\n untuk proyek yang sedang saya kerjakan. \nProyek ini berbayar\n dan hanya butuh kesabaran dan ketelatenan saja, tidak perlu kemampuan programming. Hari-H kegiatan adalah tanggal \n28-29 Oktober 2017\n. Jika tertarik, silakan hubungi saya melalui e-mail di aliakbars[at]live[dot]com dan cantumkan judul \"Lowongan PIT\".\n\n\n\n\nTugas 1\n\n\nDeskripsi Tugas 1\n\n\nKerangka Tugas 1\n\n\nKerangka Bonus Tugas 1\n\n\nDalam tugas ini, Anda diminta untuk membuat program penghitung luas bangun datar. Deskripsi lengkapnya bisa dilihat di tautan yang diberikan di atas. Tugas ini dikumpulkan melalui e-learning. Tempat untuk mengunggah tugasnya akan diberikan kemudian.\n\n\n\n\nTenggat\n\n\nSenin, 16 Oktober 2017, pukul 23.55 WIB", 
+            "text": "Dasar Pemrograman\n\n\nTugas 1\n\n\nDeskripsi Tugas 1\n\n\nKerangka Tugas 1\n\n\nKerangka Bonus Tugas 1\n\n\nDalam tugas ini, Anda diminta untuk membuat program penghitung luas bangun datar. Deskripsi lengkapnya bisa dilihat di tautan yang diberikan di atas. Tugas ini dikumpulkan melalui e-learning. Tempat untuk mengunggah tugasnya akan diberikan kemudian.\n\n\n\n\nTenggat\n\n\nSenin, 16 Oktober 2017, pukul 23.55 WIB", 
             "title": "Dasar Pemrograman"
         }, 
         {
             "location": "/daspro/#dasar-pemrograman", 
             "text": "", 
             "title": "Dasar Pemrograman"
-        }, 
-        {
-            "location": "/daspro/#pengumuman", 
-            "text": "Lowongan  Saya sedang membutuhkan lima orang sebagai  petugas lapangan  untuk proyek yang sedang saya kerjakan.  Proyek ini berbayar  dan hanya butuh kesabaran dan ketelatenan saja, tidak perlu kemampuan programming. Hari-H kegiatan adalah tanggal  28-29 Oktober 2017 . Jika tertarik, silakan hubungi saya melalui e-mail di aliakbars[at]live[dot]com dan cantumkan judul \"Lowongan PIT\".", 
-            "title": "Pengumuman"
         }, 
         {
             "location": "/daspro/#tugas-1", 
