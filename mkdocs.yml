@@ -1,0 +1,56 @@
+# Project information
+site_name: 'Universitas Al Azhar Indonesia'
+site_description: Ali Akbar's Homepage for UAI
+site_author: 'Ali Akbar Septiandri'
+site_url: 'http://uai.aliakbars.com'
+
+# Pages
+pages:
+  - Home: index.md
+  - Courses:
+    - Artificial Intelligence: ai.md
+    - Data Mining: data-mining.md
+    - Python Programming: python.md
+    - Dasar Pemrograman: daspro.md
+  - Python Projects:
+    - Home: projects/index.md
+    - Chatbot: projects/chatbot.md
+    - Concert: projects/concert.md
+    - Image Classification: projects/image.md
+    - Naive Bayes: projects/naive-bayes.md
+    - Quiz: projects/quiz.md
+    - Tic-Tac-Toe: projects/tictactoe.md
+  - FAQ: faq.md
+
+# Repository
+repo_name: 'aliakbars/uai'
+repo_url: 'https://github.com/aliakbars/uai'
+
+# Copyright
+copyright: 'Copyright &copy; 2017 Ali Akbar Septiandri'
+
+# Documentation and theme
+theme: 'material'
+
+# Options
+extra:
+  # logo: 'images/uai.png'
+  palette:
+    primary: 'yellow'
+    accent: 'blue'
+  social:
+    - type: 'github'
+      link: 'https://github.com/aliakbars'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/aaseptiandri/'
+
+# Google Analytics
+google_analytics:
+  - 'UA-93695540-1'
+  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc(permalink=true)
