@@ -43,6 +43,10 @@ Bagaimana kalau yang ingin kita prediksi nilainya berupa kategori? Misalnya, jik
 
 *Deep learning* yang saat ini sedang populer di banyak tempat berakar pada algoritma *artificial neural networks*. Algoritma ini pun sebetulnya sangat berkaitan erat dengan regresi linear dan logistik. Dengan menggunakan pengembangan dari metode optimasi *gradient descent*, *neural networks* saat ini digunakan untuk berbagai permasalahan pengenalan pola hingga pembuatan model generatif.
 
+Beberapa *framework* yang cukup banyak digunakan dalam bahasa Python untuk mengembangkan neural networks antara lain: [TensorFlow](https://www.tensorflow.org/), [PyTorch](http://pytorch.org/), dan [Caffe2](https://caffe2.ai/). Untuk level abstraksi yang lebih tinggi, mungkin Anda akan tertarik untuk menggunakan [Keras](https://keras.io/) sebagai awal. Keras juga punya versi JavaScript sehingga model yang telah Anda latih di Python dapat dimuat di web dengan [Keras.js](https://transcranial.github.io/keras-js/).
+
+Untuk yang sifatnya lebih teoritis, Anda bisa melihat buku [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) (sangat direkomendasikan!) atau buku [Deep Learning](http://www.deeplearningbook.org/). Buku yang terakhir ini juga direkomendasikan bagi Anda yang masih perlu mengulas kembali materi tentang matematika yang dibutuhkan untuk pengembangan algoritma machine learning secara umum. Semua buku ini tersedia secara legal dan gratis di internet. *Do read it if you are interested in this field!*
+
 ## Tugas 1
 
 [Notebook Tugas 1](https://nbviewer.jupyter.org/github/aliakbars/uai-ai/blob/master/scripts/tugas1.ipynb)
@@ -57,3 +61,9 @@ Dalam tugas ini, Anda akan mengeksplorasi regresi linear dan logistik, serta men
 
 !!! warning "Tenggat"
     Rabu, 18 Oktober 2017, pukul 23.55 WIB
+
+## Nearest Neighbours
+
+[Salindia minggu ke-5: k-Nearest Neighbours](https://github.com/aliakbars/uai-ai/raw/master/05-knn.pdf)
+
+Salah satu cara paling alamiah untuk mengambil keputusan bagi kita sebagai manusia adalah dengan bertanya kepada "tetangga". Orang-orang terdekat di sekeliling kita, bagaimana pun cara pengukuran kedekatannya, sering kita jadikan referensi sebelum menggunakan keputusan mayoritas mereka sebagai keputusan pribadi. Ide itu yang juga digunakan dalam algoritma Nearest Neighbours. Pada pertemuan kali ini, Anda akan belajar bagaimana metode ini dapat digunakan dalam kasus regresi maupun klasifikasi.
