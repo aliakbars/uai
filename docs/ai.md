@@ -35,11 +35,15 @@ Inteligensi pada tingkatan paling rendah adalah model yang diberikan kemampuan r
 
 [Salindia minggu ke-3: Klasifikasi: Regresi Logistik](https://github.com/aliakbars/uai-ai/raw/master/03-klasifikasi.pdf)
 
+[Catatan minggu ke-3](https://github.com/aliakbars/uai-ai/raw/master/notes-03.pdf)
+
 Bagaimana kalau yang ingin kita prediksi nilainya berupa kategori? Misalnya, jika diberikan suatu teks, apakah teks tersebut spam atau bukan? Setelah berkutat dengan data numerik, kita akan mengeksplorasi penggunaan model linear lebih lanjut untuk melakukan klasifikasi. Berbeda dengan regresi linear, regresi logistik menggunakan metode optimasi yang berbeda, optimasi numerik. Oleh karena itu, kita akan belajar lebih lanjut tentang metode *gradient descent*. Ini akan menjadi modal dasar Anda untuk mempelajari materi berikutnya: *neural networks*.
 
 ## Neural Networks
 
 [Salindia minggu ke-4: Neural Networks](https://github.com/aliakbars/uai-ai/raw/master/04-nets.pdf)
+
+[Catatan minggu ke-4](https://github.com/aliakbars/uai-ai/raw/master/notes-04.pdf)
 
 *Deep learning* yang saat ini sedang populer di banyak tempat berakar pada algoritma *artificial neural networks*. Algoritma ini pun sebetulnya sangat berkaitan erat dengan regresi linear dan logistik. Dengan menggunakan pengembangan dari metode optimasi *gradient descent*, *neural networks* saat ini digunakan untuk berbagai permasalahan pengenalan pola hingga pembuatan model generatif.
 
