@@ -1,5 +1,8 @@
 # Dasar Pemrograman
 
+!!! info "Informasi"
+    Silakan enroll di e-learning dengan menggunakan kata kunci "python".
+
 !!! tip "Tips"
     Ada baiknya untuk kuliah ini Anda menginstalasi Python dengan menggunakan [Anaconda](https://www.anaconda.com/download/) untuk menghindari proses instalasi pustaka tambahan. Semua pustaka tambahan untuk membuat Python bisa melakukan analisis data dan kebutuhan saintifik seperti MATLAB sudah ada dalam Anaconda.
 

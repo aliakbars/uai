@@ -70,4 +70,6 @@ Dalam tugas ini, Anda akan mengeksplorasi regresi linear dan logistik, serta men
 
 [Salindia minggu ke-5: k-Nearest Neighbours](https://github.com/aliakbars/uai-ai/raw/master/05-knn.pdf)
 
+[Catatan minggu ke-5](https://github.com/aliakbars/uai-ai/raw/master/notes-05.pdf)
+
 Salah satu cara paling alamiah untuk mengambil keputusan bagi kita sebagai manusia adalah dengan bertanya kepada "tetangga". Orang-orang terdekat di sekeliling kita, bagaimana pun cara pengukuran kedekatannya, sering kita jadikan referensi sebelum menggunakan keputusan mayoritas mereka sebagai keputusan pribadi. Ide itu yang juga digunakan dalam algoritma Nearest Neighbours. Pada pertemuan kali ini, Anda akan belajar bagaimana metode ini dapat digunakan dalam kasus regresi maupun klasifikasi.
