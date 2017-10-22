@@ -90,6 +90,9 @@ Dalam tugas ini, Anda diminta untuk melakukan klasifikasi dengan menggunakan alg
 
 Kapan akurasi tidak cukup lagi untuk dijadikan satu-satunya *metrics*? Bagaimana pula cara untuk menghasilkan model yang optimal? Kita akan mengeksplorasi penggunaan *metrics* lain yang dapat dihitung dari *confusion matrix*. Selain itu, akan dikenalkan juga ROC curves serta AUC yang biasa digunakan pada kasus *imbalanced dataset*.
 
+!!! tip "Tips"
+    Paper dari Pedro Domingos [ini](https://github.com/aliakbars/uai-dm/raw/master/machine-learning.pdf) bisa menjadi awal yang baik bagi Anda untuk mempelajari tentang evaluasi algoritma *machine learning* secara umum.
+
 ## Ulasan Materi
 
 [Salindia minggu ke-7: Ulasan Materi](https://github.com/aliakbars/uai-dm/raw/master/07-review.pdf)

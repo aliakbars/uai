@@ -73,3 +73,11 @@ Dalam tugas ini, Anda akan mengeksplorasi regresi linear dan logistik, serta men
 [Catatan minggu ke-5](https://github.com/aliakbars/uai-ai/raw/master/notes-05.pdf)
 
 Salah satu cara paling alamiah untuk mengambil keputusan bagi kita sebagai manusia adalah dengan bertanya kepada "tetangga". Orang-orang terdekat di sekeliling kita, bagaimana pun cara pengukuran kedekatannya, sering kita jadikan referensi sebelum menggunakan keputusan mayoritas mereka sebagai keputusan pribadi. Ide itu yang juga digunakan dalam algoritma Nearest Neighbours. Pada pertemuan kali ini, Anda akan belajar bagaimana metode ini dapat digunakan dalam kasus regresi maupun klasifikasi.
+
+## Clustering: k-Means
+
+[Salindia minggu ke-6: k-Means](https://github.com/aliakbars/uai-ai/raw/master/06-clustering.pdf)
+
+[Catatan minggu ke-6](https://github.com/aliakbars/uai-ai/raw/master/notes-06.pdf)
+
+Pada pertemuan kali ini, kita akan beralih ke algoritma *machine learning* yang masuk ke dalam kategori *unsupervised learning*. Berbeda dengan beberapa algoritma yang telah kita bahas di pertemuan-pertemuan sebelumnya, algoritma ini tidak membutuhkan label sehingga cara mengevaluasinya juga lebih bervariasi. Untuk kebutuhan mata kuliah ini, kita hanya akan membahas tentang salah satu algoritma untuk melakukan pengelompokan data (*clustering*), yaitu k-Means.

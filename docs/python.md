@@ -8,11 +8,11 @@ Materi yang diberikan di kelas dan referensi tambahan mengenai kuliah Pemrograma
 
 ## Hello, World!
 
-[Salindia minggu ke-1: Hello, Python!](https://github.com/aliakbars/uai-python/blob/master/01-hello.pdf)
+[Salindia minggu ke-1: Hello, Python!](https://github.com/aliakbars/uai-python/raw/master/01-hello.pdf)
 
 Kuliah ini akan menggunakan Python 2.7 dengan asumsi bahwa Anda sudah familiar dengan pengembangan program secara umum. Akan ada beberapa script yang disediakan untuk menunjang perkuliahan, silakan unduh sebelum kelas dimulai.
 
-[Salindia minggu ke-2: Struktur Data &amp; Pemrograman Fungsional](https://github.com/aliakbars/uai-python/blob/master/02-struktur-data.pdf)
+[Salindia minggu ke-2: Struktur Data &amp; Pemrograman Fungsional](https://github.com/aliakbars/uai-python/raw/master/02-struktur-data.pdf)
 
 Untuk tahu lebih lanjut tentang bahasa pemrograman fungsional dan apa yang bisa dilakukan, silakan melihat bahasa pemrograman seperti [LISP](https://www.common-lisp.net/) atau (lebih disarankan) [Haskell](https://www.haskell.org). Pemrograman dengan paradigma fungsional dimaksudkan untuk meniru pola fungsi matematis sehingga memudahkan saat *debugging*. Akan menyulitkan di awal untuk mengubah pola pikir [imperatif menjadi deklaratif](https://tylermcginnis.com/imperative-vs-declarative-programming/), tetapi seharusnya bisa berguna di kemudian hari.
 
@@ -21,13 +21,13 @@ Untuk tahu lebih lanjut tentang bahasa pemrograman fungsional dan apa yang bisa 
 
 ## Pemrograman Berorientasi Objek
 
-[Salindia minggu ke-3: Pemrograman Berorientasi Objek](https://github.com/aliakbars/uai-python/blob/master/03-oop.pdf)
+[Salindia minggu ke-3: Pemrograman Berorientasi Objek](https://github.com/aliakbars/uai-python/raw/master/03-oop.pdf)
 
 Setelah membahas tentang Python dalam paradigma pemrograman fungsional, kali ini akan diulas tentang Python dalam paradigma pemrograman berorientasi objek (OOP). Namun, kuliah ini tidak membahas secara mendalam tentang konsep-konsep dalam OOP itu sendiri, e.g. *inheritance, dynamic binding, encapsulation*. Fokus dari materi kali ini adalah bagaimana konsep-konsep tersebut diterjemahkan secara sintaksis dalam bahasa Python. Dokumentasi Python tentang [modul](https://docs.python.org/2.7/tutorial/modules.html) dan [kelas](https://docs.python.org/2.7/tutorial/classes.html) dapat sangat membantu pemahaman Anda. Untuk belajar bagaimana menganalisis dan mendesain dalam OOP dengan lebih baik, saya sangat menyarankan untuk membaca Head First Object-Oriented Analysis and Design (McLaughlin, et al. 2006).
 
 ## Tugas 1
 
-[Deskripsi Tugas 1](https://github.com/aliakbars/uai-python/blob/master/tugas-1.pdf)
+[Deskripsi Tugas 1](https://github.com/aliakbars/uai-python/raw/master/tugas-1.pdf)
 
 [Kode Tugas 1](https://github.com/aliakbars/uai-python/blob/master/scripts/tugas/tugas1.py)
 
@@ -38,20 +38,20 @@ Dalam tugas pertama ini, Anda diminta untuk menyelesaikan kerangka dari sebuah p
 
 ## Pemrograman Web
 
-[Salindia minggu ke-4: Pemrograman Web: Flask](https://github.com/aliakbars/uai-python/blob/master/04-flask.pdf)
+[Salindia minggu ke-4: Pemrograman Web: Flask](https://github.com/aliakbars/uai-python/raw/master/04-flask.pdf)
 
 Flask merupakan *microframework* yang dapat memudahkan pembuatan web sederhana dalam bahasa Python. Dengan menggunakan Flask, implementasi pemrograman web dalam Python bisa semudah mengerjakan web dalam bahasa PHP. Namun, kemudahan ini tentu ada harganya: hilangnya beberapa komponen penting untuk aplikasi skala besar. Tidak adanya kemampuan Flask untuk sanitasi input maupun pembuatan basis data dengan *Object Relational Mapper* (ORM) secara bawaan terkadang bisa membuat kode jadi lebih rumit. Namun, perlu diingat sekali lagi bahwa Flask memang ditujukan untuk program skala kecil, misalnya untuk pembuatan purwarupa.
 
 
-[Salindia minggu ke-5: Pemrograman Web: Scraping](https://github.com/aliakbars/uai-python/blob/master/05-scraping.pdf)
+[Salindia minggu ke-5: Pemrograman Web: Scraping](https://github.com/aliakbars/uai-python/raw/master/05-scraping.pdf)
 
 Terkadang, kita perlu untuk mengambil sendiri data dari laman web. Beberapa web yang tidak menyediakan API mengharuskan kita untuk membuka sendiri laman tersebut lalu mengekstraksi informasinya satu per satu. Dengan melakukan *scraping*, kita bisa mengotomasi proses tersebut. Python mempunyai pustaka untuk melakukan hal tersebut dengan cukup mudah: Requests dan Beautiful Soup. Namun, ingat bahwa *scraping* sejatinya sering berada di posisi abu-abu - antara boleh atau tidak. Jadi, *be responsible*!
 
 ## Tugas 2
 
-[Deskripsi Tugas 2](https://github.com/aliakbars/uai-python/blob/master/tugas-2.pdf)
+[Deskripsi Tugas 2](https://github.com/aliakbars/uai-python/raw/master/tugas-2.pdf)
 
-[Pembagian Tim Tugas 2](https://github.com/aliakbars/uai-python/blob/master/tim.txt)
+[Pembagian Tim Tugas 2](https://github.com/aliakbars/uai-python/raw/master/tim.txt)
 
 Anda akan mengerjakan tugas kedua dengan *pair programming*. Kelompoknya sudah dibagikan seperti file yang dilampirkan di atas. Selain itu, Anda diwajibkan menggunakan repositori yang telah disediakan di [GitHub](https://github.com/uai-python). Perhatikan bahwa **pengumpulan tugas** tetap harus dilakukan melalui **situs e-learning**!
 
@@ -60,7 +60,7 @@ Anda akan mengerjakan tugas kedua dengan *pair programming*. Kelompoknya sudah d
 
 ## Ulasan Materi
 
-[Salindia minggu ke-7: Ulasan](https://github.com/aliakbars/uai-python/blob/master/07-review.pdf)
+[Salindia minggu ke-7: Ulasan](https://github.com/aliakbars/uai-python/raw/master/07-review.pdf)
 
 Minggu ini tidak ada materi tambahan. Kelas akan digunakan untuk mengulas materi yang telah lalu dan menyampaikan beberapa pengumuman terkait ujian dan sisa perkuliahan.
 
@@ -68,7 +68,7 @@ Minggu ini tidak ada materi tambahan. Kelas akan digunakan untuk mengulas materi
 
 [Python Projects](/projects/)
 
-[Template Proposal](https://github.com/aliakbars/uai-python/blob/master/proposal.pdf)
+[Template Proposal](https://github.com/aliakbars/uai-python/raw/master/proposal.pdf)
 
 Untuk tugas akhir ini, Anda diminta untuk membuat proposal pengajuan topik dan ruang lingkup dari tugas yang Anda akan kerjakan. Secara berkala, Anda juga akan diminta melaporkan progres dari pekerjaan Anda. Dengan demikian, diharapkan pada akhir perkuliahan nanti, setiap mahasiswa dapat menyelesaikan proyeknya sehingga layak untuk didemokan. Setiap materi yang berkaitan dengan tugas akhir ini akan dipos melalui tautan di atas.
 
@@ -77,11 +77,11 @@ Untuk tugas akhir ini, Anda diminta untuk membuat proposal pengajuan topik dan r
 
 ## Data
 
-[Salindia minggu ke-8: Pengolahan Data](https://github.com/aliakbars/uai-python/blob/master/08-data.pdf)
+[Salindia minggu ke-8: Pengolahan Data](https://github.com/aliakbars/uai-python/raw/master/08-data.pdf)
 
 Materi minggu ini berkaitan dengan pengolahan, analisis, dan visualisasi data. Beberapa materi akan membutuhkan pengetahuan statistik dan aljabar linear, tetapi akan dibuat sesederhana mungkin sehingga bisa dipahami dengan materi yang pernah diajarkan sejak SMA hingga kuliah tingkat awal. Untuk sisa materi, kita akan banyak berkutat dengan [Jupyter Notebook](http://jupyter.org/) sebagai editor dan tempat penyimpanan hasil pekerjaan -- termasuk tugas! Untuk pengguna Windows, disarankan untuk menggunakan [Anaconda](https://www.continuum.io/downloads) untuk Python 2.7[.](https://www.dropbox.com/s/mcjkwd9sskuv52x/kuis.pdf?dl=0")
 
-[Salindia minggu ke-9: Visualisasi Data](https://github.com/aliakbars/uai-python/blob/master/09-visual.pdf)
+[Salindia minggu ke-9: Visualisasi Data](https://github.com/aliakbars/uai-python/raw/master/09-visual.pdf)
 
 Di minggu ini, Anda akan belajar tentang penggunaan matplotlib sebagai pustaka standar untuk melakukan visualisasi data di Python. Meski agak tertinggal dibandingkan pustaka visualisasi yang lebih interaktif di bahasa lain seperti D3.js, penting untuk memahami dasar-dasar visualisasi dan pustaka yang sebetulnya sangat mumpuni ini. Salindia minggu ini tidak terlalu banyak isinya karena akan lebih banyak didemokan di kelas. Silakan lihat materi visualisasi di [notebook ini](http://nbviewer.jupyter.org/github/aliakbars/uai-python/blob/master/scripts/week9/visualisation.ipynb).
 
@@ -96,11 +96,11 @@ Anda akan mengerjakan tugas ketiga secara perorangan dan materinya akan berhubun
 
 ## Artificial Intelligence
 
-[Salindia minggu ke-10: Machine Learning &amp; Pattern Recognition](https://github.com/aliakbars/uai-python/blob/master/10-mlpr.pdf)
+[Salindia minggu ke-10: Machine Learning &amp; Pattern Recognition](https://github.com/aliakbars/uai-python/raw/master/10-mlpr.pdf)
 
 Sebagai lanjutan dari materi minggu lalu, kali ini Anda akan dikenalkan dengan pustaka Python untuk melakukan pembelajaran mesin dan pengenalan pola. Karena materi ini membutuhkan keahlian khusus yang mungkin baru didapatkan di tingkat tiga (sebagian juga masuk ke kuliah pilihan), maka banyak materi yang tidak disampaikan saat ini. Harapannya, sedikit contoh ini bisa memberikan gambaran kepada Anda tentang apa yang bisa dilakukan dalam salah satu area kecerdasan buatan yang sedang sangat berkembang ini.
 
-[Salindia minggu ke-11: Natural Language Processing](https://github.com/aliakbars/uai-python/blob/master/11-nlp.pdf)
+[Salindia minggu ke-11: Natural Language Processing](https://github.com/aliakbars/uai-python/raw/master/11-nlp.pdf)
 
 Salah satu cabang dari ilmu *artificial intelligence* (AI) adalah pemrosesan bahasa alami atau *natural language processing* (NLP). Minggu ini, kita akan membahas beberapa tugas yang biasa dilakukan dalam NLP menggunakan salah satu pustaka yang umum digunakan, yaitu Natural Language Toolkit (NLTK). Kita juga akan melihat hubungan dari NLP dengan pembelajaran mesin yang telah dipelajari minggu lalu.
 
@@ -119,7 +119,7 @@ Tugas Anda kali ini adalah melakukan klasifikasi gambar untuk dua jenis dataset:
 
 ## Implementasi Lain
 
-[Salindia minggu ke-12: Beyond Python](https://github.com/aliakbars/uai-python/blob/master/12-beyond.pdf)
+[Salindia minggu ke-12: Beyond Python](https://github.com/aliakbars/uai-python/raw/master/12-beyond.pdf)
 
 Materi terakhir dalam kuliah Pemrograman Python berisi tentang pengenalan beberapa implementasi interpreter Python dalam berbagai bahasa. Selain itu, dikenalkan juga Cython sebagai bahasa superset dari Python. Terdapat pula penjelasan tentang pemakaian Python di industri.
 
