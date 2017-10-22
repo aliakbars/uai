@@ -68,25 +68,20 @@ Berikut ini adalah [video](https://www.youtube.com/watch?v=os-NaA0ldGs&list=PLBv
 
 Pohon keputusan merupakan algoritma klasifikasi yang memudahkan pengguna untuk memahami jalannya proses klasifikasi suatu data. Bagi *end-user*, tidak perlu pemahaman statistika yang mendalam untuk tahu apa yang terjadi. Di sisi lain, algoritma ini bisa jadi cukup efektif. Terbukti, pengembangan algoritma ini, yaitu XGBoost dan Random Forest, sering dipakai di berbagai kompetisi dan makalah *data mining*. Materi minggu ini membahas tentang bagaimana kita bisa membentuk pohon keputusan untuk melakukan klasifikasi, termasuk bagaimana kita dapat mengevaluasi hasil klasifikasi tersebut.
 
+## Tugas 2
 
-<!-- ## Tugas 2
+[Notebook Tugas 2](https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas2b.ipynb)
 
-[Notebook Tugas 2](https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas2.ipynb)
-
-[Dataset Tugas 2: Training](https://github.com/aliakbars/uai-dm/raw/master/dataset/train.p)
-
-[Dataset Tugas 2: Validation](https://github.com/aliakbars/uai-dm/raw/master/dataset/val.p)
-
-[Dataset Tugas 2: Test](https://github.com/aliakbars/uai-dm/raw/master/dataset/test.p)
+[Dataset Tugas 2](https://github.com/aliakbars/uai-dm/raw/master/dataset/telco_churn.csv)
 
 Dalam tugas ini, Anda diminta untuk melakukan klasifikasi dengan menggunakan algoritma Naive Bayes dan Decision Trees. Anda diminta menjelaskan dan mengimplementasikan beberapa komponen dari kedua jenis algoritma tersebut. Silakan merujuk ke materi praktikum 2 untuk mencari beberapa referensi kode yang dapat digunakan. Tugas ini dikumpulkan melalui situs e-learning UAI.
 
 !!! warning "Tenggat"
-    Jumat, 14 April 2017, pukul 23.55 WIB -->
+    Kamis, 26 Oktober 2017, pukul 23.55 WIB
 
 ## Evaluasi Model
 
-[Salindia minggu ke-6: Evaluasi Model]()
+[Salindia minggu ke-6: Evaluasi Model](https://github.com/aliakbars/uai-dm/raw/master/06-evaluasi.pdf)
 
 Kapan akurasi tidak cukup lagi untuk dijadikan satu-satunya *metrics*? Bagaimana pula cara untuk menghasilkan model yang optimal? Kita akan mengeksplorasi penggunaan *metrics* lain yang dapat dihitung dari *confusion matrix*. Selain itu, akan dikenalkan juga ROC curves serta AUC yang biasa digunakan pada kasus *imbalanced dataset*.
 
