@@ -18,3 +18,14 @@ Dalam tugas ini, Anda diminta untuk membuat program penghitung luas bangun datar
 
 !!! warning "Tenggat"
     Senin, 16 Oktober 2017, pukul 23.55 WIB
+
+## Tugas 2
+
+[Deskripsi Tugas 2](https://github.com/aliakbars/uai-daspro/raw/master/tugas-2.pdf)
+
+[Kerangka Tugas 2](https://github.com/aliakbars/uai-daspro/raw/master/scripts/tugas2.py)
+
+Dalam tugas ini, Anda diminta untuk membuat program untuk merekapitulasi nilai. Deskripsi lengkapnya bisa dilihat di tautan yang diberikan di atas. Tugas ini dikumpulkan melalui e-learning.
+
+!!! warning "Tenggat"
+    Sabtu, 4 November 2017, pukul 23.55 WIB
