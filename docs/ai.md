@@ -81,3 +81,12 @@ Salah satu cara paling alamiah untuk mengambil keputusan bagi kita sebagai manus
 [Catatan minggu ke-6](https://github.com/aliakbars/uai-ai/raw/master/notes-06.pdf)
 
 Pada pertemuan kali ini, kita akan beralih ke algoritma *machine learning* yang masuk ke dalam kategori *unsupervised learning*. Berbeda dengan beberapa algoritma yang telah kita bahas di pertemuan-pertemuan sebelumnya, algoritma ini tidak membutuhkan label sehingga cara mengevaluasinya juga lebih bervariasi. Untuk kebutuhan mata kuliah ini, kita hanya akan membahas tentang salah satu algoritma untuk melakukan pengelompokan data (*clustering*), yaitu k-Means.
+
+## Tugas 2
+
+[Notebook Tugas 1](https://nbviewer.jupyter.org/github/aliakbars/uai-ai/blob/master/scripts/tugas2.ipynb)
+
+Dalam tugas ini, Anda akan mengeksplorasi penggunaan k-NN untuk klasifikasi dan regresi, serta melakukan *clustering* dan klasifikasi dengan memanfaatkan algoritma k-Means untuk gambar angka.
+
+!!! warning "Tenggat"
+    Minggu, 19 November 2017, pukul 23.55 WIB
