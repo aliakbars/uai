@@ -346,6 +346,26 @@
             "title": "Tugas Akhir"
         },
         {
+            "location": "/soft-computing/",
+            "text": "Soft Computing\n\u00b6\n\n\nPendahuluan\n\u00b6\n\n\nKuliah ini akan meminta Anda untuk belajar menggunakan \ndeep learning\n dalam berbagai kasus. Kemampuan pemrograman dalam bahasa Python menjadi syarat bagi Anda untuk dapat mengikuti kuliah ini. Sebagai referensi, Anda direkomendasikan untuk belajar dari buku \nDeep Learning\n yang ditulis oleh Ian Goodfellow dkk. Buku dari Michael Nielsen tentang \nNeural Networks and Deep Learning\n juga bisa menjadi sumber yang baik.\n\n\n\n\nReferensi\n\n\nKuliah ini banyak mengadaptasi materi dari \nfast.ai\n dan \nCS230: Deep Learning\n dari Stanford University.\n\n\n\n\nAnda dapat membuat \nclone\n dari repositori mata kuliah ini di \nsini\n.\n\n\nPengenalan Deep Learning\n\u00b6\n\n\nSalindia minggu ke-1: Pendahuluan\n\n\nAdministrasi kuliah dan beberapa contoh penerapan \ndeep learning\n.",
+            "title": "Soft Computing"
+        },
+        {
+            "location": "/soft-computing/#soft-computing",
+            "text": "",
+            "title": "Soft Computing"
+        },
+        {
+            "location": "/soft-computing/#pendahuluan",
+            "text": "Kuliah ini akan meminta Anda untuk belajar menggunakan  deep learning  dalam berbagai kasus. Kemampuan pemrograman dalam bahasa Python menjadi syarat bagi Anda untuk dapat mengikuti kuliah ini. Sebagai referensi, Anda direkomendasikan untuk belajar dari buku  Deep Learning  yang ditulis oleh Ian Goodfellow dkk. Buku dari Michael Nielsen tentang  Neural Networks and Deep Learning  juga bisa menjadi sumber yang baik.   Referensi  Kuliah ini banyak mengadaptasi materi dari  fast.ai  dan  CS230: Deep Learning  dari Stanford University.   Anda dapat membuat  clone  dari repositori mata kuliah ini di  sini .",
+            "title": "Pendahuluan"
+        },
+        {
+            "location": "/soft-computing/#pengenalan-deep-learning",
+            "text": "Salindia minggu ke-1: Pendahuluan  Administrasi kuliah dan beberapa contoh penerapan  deep learning .",
+            "title": "Pengenalan Deep Learning"
+        },
+        {
             "location": "/daspro/",
             "text": "Dasar Pemrograman\n\u00b6\n\n\n\n\nUmpan balik\n\n\nMohon untuk mengisi formulir umpan balik perkuliahan di \nsini\n.\n\n\n\n\n\n\nTips\n\n\nAda baiknya untuk kuliah ini Anda menginstalasi Python dengan menggunakan \nAnaconda\n untuk menghindari proses instalasi pustaka tambahan. Semua pustaka tambahan untuk membuat Python bisa melakukan analisis data dan kebutuhan saintifik seperti MATLAB sudah ada dalam Anaconda.\n\n\n\n\n\n\nCoding for Kids\n\n\nAnda mungkin akan tertarik untuk mencoba \ntautan ini\n sebagai latihan awal untuk memahami konsep programming.\n\n\n\n\nTugas 1\n\u00b6\n\n\nDeskripsi Tugas 1\n\n\nKerangka Tugas 1\n\n\nKerangka Bonus Tugas 1\n\n\nDalam tugas ini, Anda diminta untuk membuat program penghitung luas bangun datar. Deskripsi lengkapnya bisa dilihat di tautan yang diberikan di atas. Tugas ini dikumpulkan melalui e-learning. Tempat untuk mengunggah tugasnya akan diberikan kemudian.\n\n\n\n\nTenggat\n\n\nSenin, 16 Oktober 2017, pukul 23.55 WIB\n\n\n\n\nTugas 2\n\u00b6\n\n\nDeskripsi Tugas 2\n\n\nKerangka Tugas 2\n\n\nDalam tugas ini, Anda diminta untuk membuat program untuk merekapitulasi nilai. Deskripsi lengkapnya bisa dilihat di tautan yang diberikan di atas. Tugas ini dikumpulkan melalui e-learning.\n\n\n\n\nTenggat\n\n\nSabtu, 4 November 2017, pukul 23.55 WIB\n\n\n\n\nTugas 3\n\u00b6\n\n\nNotebook Tugas 3\n\n\nDalam tugas ini, Anda diminta untuk menghitung BMI dan memprediksi berat badan dari tinggi badan dengan menggukan regresi linear sederhana. Tugas ini dikumpulkan melalui e-learning.\n\n\n\n\nTenggat\n\n\nSenin, 25 November 2017, pukul 23.55 WIB\n\n\n\n\nTugas 4\n\u00b6\n\n\nNotebook Tugas 4\n\n\nDalam tugas ini, Anda diminta untuk mengeksplorasi nilai nutrisi dari menu McDonald's. Dataset tersebut didapatkan dari situs \nKaggle\n.\n\n\n\n\nTenggat\n\n\nSenin, 15 Januari 2018, pukul 23.55 WIB\n\n\n\n\n\n\nTips\n\n\nAnda dapat melihat referensi visualisasi data dari \nnotebook ini\n atau \nini\n.",
             "title": "Dasar Pemrograman"
