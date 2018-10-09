@@ -293,8 +293,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#neural-networks" title="Neural Networks" class="md-nav__link">
-    Neural Networks
+  <a href="#melatih-model-linear" title="Melatih Model Linear" class="md-nav__link">
+    Melatih Model Linear
   </a>
   
 </li>
@@ -630,8 +630,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#neural-networks" title="Neural Networks" class="md-nav__link">
-    Neural Networks
+  <a href="#melatih-model-linear" title="Melatih Model Linear" class="md-nav__link">
+    Melatih Model Linear
   </a>
   
 </li>
@@ -715,13 +715,22 @@
 </div>
 <p><a href="https://github.com/aliakbars/uai-ai/raw/master/03-klasifikasi.pdf">Salindia minggu ke-3: Klasifikasi: Regresi Logistik</a></p>
 <p><a href="https://github.com/aliakbars/uai-ai/raw/master/notes-03.pdf">Catatan minggu ke-3</a></p>
-<p>Bagaimana kalau yang ingin kita prediksi nilainya berupa kategori? Misalnya, jika diberikan suatu teks, apakah teks tersebut spam atau bukan? Setelah berkutat dengan data numerik, kita akan mengeksplorasi penggunaan model linear lebih lanjut untuk melakukan klasifikasi. Berbeda dengan regresi linear, regresi logistik menggunakan metode optimasi yang berbeda, optimasi numerik. Oleh karena itu, kita akan belajar lebih lanjut tentang metode <em>gradient descent</em>. Ini akan menjadi modal dasar Anda untuk mempelajari materi berikutnya: <em>neural networks</em>.</p>
-<h2 id="neural-networks">Neural Networks<a class="headerlink" href="#neural-networks" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/aliakbars/uai-ai/raw/master/04-nets.pdf">Salindia minggu ke-4: Neural Networks</a></p>
-<p><a href="https://github.com/aliakbars/uai-ai/raw/master/notes-04.pdf">Catatan minggu ke-4</a></p>
-<p><em>Deep learning</em> yang saat ini sedang populer di banyak tempat berakar pada algoritma <em>artificial neural networks</em>. Algoritma ini pun sebetulnya sangat berkaitan erat dengan regresi linear dan logistik. Dengan menggunakan pengembangan dari metode optimasi <em>gradient descent</em>, <em>neural networks</em> saat ini digunakan untuk berbagai permasalahan pengenalan pola hingga pembuatan model generatif.</p>
-<p>Beberapa <em>framework</em> yang cukup banyak digunakan dalam bahasa Python untuk mengembangkan neural networks antara lain: <a href="https://www.tensorflow.org/">TensorFlow</a>, <a href="http://pytorch.org/">PyTorch</a>, dan <a href="https://caffe2.ai/">Caffe2</a>. Untuk level abstraksi yang lebih tinggi, mungkin Anda akan tertarik untuk menggunakan <a href="https://keras.io/">Keras</a> sebagai awal. Keras juga punya versi JavaScript sehingga model yang telah Anda latih di Python dapat dimuat di web dengan <a href="https://transcranial.github.io/keras-js/">Keras.js</a>.</p>
-<p>Untuk yang sifatnya lebih teoritis, Anda bisa melihat buku <a href="http://neuralnetworksanddeeplearning.com/">Neural Networks and Deep Learning</a> (sangat direkomendasikan!) atau buku <a href="http://www.deeplearningbook.org/">Deep Learning</a>. Buku yang terakhir ini juga direkomendasikan bagi Anda yang masih perlu mengulas kembali materi tentang matematika yang dibutuhkan untuk pengembangan algoritma machine learning secara umum. Semua buku ini tersedia secara legal dan gratis di internet. <em>Do read it if you are interested in this field!</em></p>
+<p>Bagaimana kalau yang ingin kita prediksi nilainya berupa kategori? Misalnya, jika diberikan suatu teks, apakah teks tersebut spam atau bukan? Setelah berkutat dengan data numerik, kita akan mengeksplorasi penggunaan model linear lebih lanjut untuk melakukan klasifikasi. Berbeda dengan regresi linear, regresi logistik menggunakan metode optimasi yang berbeda, optimasi numerik. Oleh karena itu, kita akan belajar lebih lanjut tentang metode <em>gradient descent</em>.</p>
+<h2 id="melatih-model-linear">Melatih Model Linear<a class="headerlink" href="#melatih-model-linear" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-ai/raw/master/04-training.pdf">Salindia minggu ke-4: Training vs Testing</a></p>
+<p>Bagaimana cara mengukur bahwa model yang kita buat sebelumnya sudah baik? Apa pula yang dimaksud dengan <em>hyperparameter tuning</em>? Kita akan belajar cara untuk mengestimasi error general dengan membagi data menjadi data latih, validasi, dan uji. Anda juga akan dikenalkan dengan beberapa metrik yang dapat dipakai untuk mengevaluasi model yang dihasilkan.</p>
+<!-- ## Neural Networks
+
+[Salindia minggu ke-4: Neural Networks](https://github.com/aliakbars/uai-ai/raw/master/04-nets.pdf)
+
+[Catatan minggu ke-4](https://github.com/aliakbars/uai-ai/raw/master/notes-04.pdf)
+
+*Deep learning* yang saat ini sedang populer di banyak tempat berakar pada algoritma *artificial neural networks*. Algoritma ini pun sebetulnya sangat berkaitan erat dengan regresi linear dan logistik. Dengan menggunakan pengembangan dari metode optimasi *gradient descent*, *neural networks* saat ini digunakan untuk berbagai permasalahan pengenalan pola hingga pembuatan model generatif.
+
+Beberapa *framework* yang cukup banyak digunakan dalam bahasa Python untuk mengembangkan neural networks antara lain: [TensorFlow](https://www.tensorflow.org/), [PyTorch](http://pytorch.org/), dan [Caffe2](https://caffe2.ai/). Untuk level abstraksi yang lebih tinggi, mungkin Anda akan tertarik untuk menggunakan [Keras](https://keras.io/) sebagai awal. Keras juga punya versi JavaScript sehingga model yang telah Anda latih di Python dapat dimuat di web dengan [Keras.js](https://transcranial.github.io/keras-js/).
+
+Untuk yang sifatnya lebih teoritis, Anda bisa melihat buku [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) (sangat direkomendasikan!) atau buku [Deep Learning](http://www.deeplearningbook.org/). Buku yang terakhir ini juga direkomendasikan bagi Anda yang masih perlu mengulas kembali materi tentang matematika yang dibutuhkan untuk pengembangan algoritma machine learning secara umum. Semua buku ini tersedia secara legal dan gratis di internet. *Do read it if you are interested in this field!* -->
+
 <!-- ## Tugas 1
 
 [Notebook Tugas 1](https://nbviewer.jupyter.org/github/aliakbars/uai-ai/blob/master/scripts/tugas1.ipynb)
@@ -794,8 +803,8 @@ Keterangan lebih lanjut tentang tugas ini akan segera dimuat di situs ini. Silak
     Selasa, 5 Desember 2017, pukul 23.55 WIB -->
 
 <h2 id="reinforcement-learning">Reinforcement Learning<a class="headerlink" href="#reinforcement-learning" title="Permanent link">&para;</a></h2>
-<p><a href="http://web.stanford.edu/class/cs221/lectures/index.html#include=mdp1.js">Salindia minggu ke-11: Markov Decision Processes</a></p>
-<p><a href="http://web.stanford.edu/class/cs221/lectures/index.html#include=mdp2.js">Salindia minggu ke-12: Reinforcement Learning</a></p>
+<p><a href="http://web.stanford.edu/class/cs221/2018/lectures/index.html#include=mdp1.js">Salindia minggu ke-11: Markov Decision Processes</a></p>
+<p><a href="http://web.stanford.edu/class/cs221/2018/lectures/index.html#include=mdp2.js">Salindia minggu ke-12: Reinforcement Learning</a></p>
 <p>Untuk menjelaskan <em>reinforcement learning</em>, silakan merujuk pada salindia dari Stanford University yang tercantum pada tautan di atas. Agen cerdas tipe ini belajar dalam <em>states</em> dan ketidakpastian. Ketika suatu aksi yang diambil tidak pasti berujung pada yang diharapkan, kita harus mempertimbangkan kembali aksi yang harus kita ambil agar dapat mengoptimasi solusi yang diharapkan. Untuk materi yang lebih lanjut, Anda juga dapat menyimak video kuliah dari David Silver di <a href="https://www.youtube.com/watch?v=2pWv7GOvuf0">sini</a>.</p>
 <!-- ## Tugas Akhir
 
@@ -812,8 +821,8 @@ Proposal yang telah Anda ajukan harus diselesaikan dalam bentuk makalah (bisa be
     Jumat, 19 Januari 2018, pukul 23.55 WIB -->
 
 <h2 id="game-playing">Game Playing<a class="headerlink" href="#game-playing" title="Permanent link">&para;</a></h2>
-<p><a href="http://web.stanford.edu/class/cs221/lectures/index.html#include=games1.js">Salindia minggu ke-13: Minimax, expectimax, evaluation functions, alpha-beta pruning</a></p>
-<p><a href="http://web.stanford.edu/class/cs221/lectures/index.html#include=games2.js">Salindia minggu ke-14: TD learning, game theory</a></p>
+<p><a href="http://web.stanford.edu/class/cs221/2018/lectures/index.html#include=games1.js">Salindia minggu ke-13: Minimax, expectimax, evaluation functions, alpha-beta pruning</a></p>
+<p><a href="http://web.stanford.edu/class/cs221/2018/lectures/index.html#include=games2.js">Salindia minggu ke-14: TD learning, game theory</a></p>
 <p>Di materi sebelumnya, kita sudah membahas bagaimana proses pencarian dalam pohon maupun graf termasuk ketika ada elemen keacakan (<em>stochasticity</em>). Bagaimana jika yang dilawan bukan hanya lingkungan saja, tetapi juga lawan yang selalu berusaha meminimalkan keuntungan yang dapat kita raih? Untuk itu, kita perlu memodifikasi kasus yang telah kita pelajari menjadi pohon permainan (<em>game trees</em>) sehingga kita dapat menghasilkan solusi yang optimal bagi agen yang kita buat. Materi dalam dua minggu ini juga masih diadaptasi dari CS221 Stanford University.</p>
 <div class="admonition tip">
 <p class="admonition-title">Video Lectures</p>
