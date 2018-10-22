@@ -28,7 +28,7 @@ Namun, bagi Anda yang masih bingung dalam menentukan topik, ada beberapa topik y
 8. Mahasiswa **tidak perlu menyiapkan salindia** untuk presentasi. Cukup tunjukkan dan jelaskan aplikasi yang telah dibuat.
 9. Sesi tanya jawab akan difokuskan pada kode yang telah dikerjakan, tapi tidak menutup kemungkinan untuk berisi pertanyaan umum mengenai hal lain yang dapat dilakukan dengan menggunakan bahasa Python.
 
-## Jadwal Demo
+<!-- ## Jadwal Demo
 
 Waktu         | NIM        | Nama
 --------------|------------|--------------------------------
@@ -51,4 +51,4 @@ Waktu         | NIM        | Nama
 09:22 - 09:29 | 0102514013 | Nanang Rezka Kurniawan
 09:29 - 09:36 | 0102515031 | Bintang Nafsul Mutmainnah
 09:36 - 09:43 | 0102515019 | Rayza Al Khensha Kacita Ananda
-09:43 - 09:50 | 0102514025 | Ghina Resti Hanifah
+09:43 - 09:50 | 0102514025 | Ghina Resti Hanifah -->

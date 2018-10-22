@@ -1,6 +1,6 @@
 # Project information
 site_name: 'Universitas Al Azhar Indonesia'
-site_description: Ali Akbar's Homepage for UAI
+site_description: Ali Akbar's homepage for UAI. Lectures about data science, data mining, machine learning, deep learning, and artificial intelligence. Mostly done with Python.
 site_author: 'Ali Akbar Septiandri'
 site_url: 'http://uai.aliakbars.com'
 
@@ -10,8 +10,13 @@ pages:
   - Courses:
     - Artificial Intelligence: ai.md
     - Data Mining: data-mining.md
+    - Pengenalan Pola: mlpr.md
     - Python Programming: python.md
+    - Soft Computing: soft-computing.md
     - Dasar Pemrograman: daspro.md
+  - Final Projects:
+    - Artificial Intelligence 17/18: final/ai-ta.md
+    - Pengenalan Pola 17/18: final/mlpr-ta.md
   - Python Projects:
     - Home: projects/index.md
     - Chatbot: projects/chatbot.md
@@ -21,23 +26,25 @@ pages:
     - Quiz: projects/quiz.md
     - Tic-Tac-Toe: projects/tictactoe.md
   - FAQ: faq.md
+  - About Me: about.md
 
 # Repository
 repo_name: 'aliakbars/uai'
 repo_url: 'https://github.com/aliakbars/uai'
 
 # Copyright
-copyright: 'Copyright &copy; 2017 Ali Akbar Septiandri'
+copyright: 'Copyright &copy; 2017-2018 Ali Akbar Septiandri'
 
 # Documentation and theme
-theme: 'material'
+theme:
+  name: 'material'
+  palette:
+    primary: 'blue grey'
+    accent: 'yellow'
 
 # Options
 extra:
   # logo: 'images/uai.png'
-  palette:
-    primary: 'yellow'
-    accent: 'blue'
   social:
     - type: 'github'
       link: 'https://github.com/aliakbars'
@@ -53,4 +60,5 @@ google_analytics:
 markdown_extensions:
   - admonition
   - codehilite
+  - meta
   - toc(permalink=true)

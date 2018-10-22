@@ -6,6 +6,7 @@ Beberapa pertanyaan yang sering ditanyakan tentang Artificial Intelligence (AI) 
 
 Untuk AI, rujukan utama yang bisa digunakan adalah buku [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu) karya Stuart Russell dan Peter Norvig (dikenal juga dengan nama buku AIMA atau Russell-Norvig). Sedangkan untuk ML ada beberapa alternatif yang cukup menarik untuk dibaca:
 
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) karya Jake VanderPlas - sangat menarik dan cukup mudah diikuti karena disertai kode dalam Python, termasuk pengenalan bahasa Python dan pustaka yang digunakan
 - [Pattern Recognition and Machine Learning](http://www.springer.com/kr/book/9780387310732) karya Christopher Bishop - cocok untuk belajar dari dasar karena pembaca tidak diasumsikan memiliki latar belakang di bidang ML
 - [Machine Learning: a Probabilistic Perspective](https://www.cs.ubc.ca/~murphyk/MLbook/) karya Kevin Murphy - memberikan contoh kode Matlab dan menggunakan pendekatan lebih "frequentist" dibandingkan bukunya Bishop dan membutuhkan sedikit pemahaman matematis dan programming
 - Kuliah daring [Machine Learning](https://www.coursera.org/learn/machine-learning) oleh Andrew Ng - beberapa orang menyarankan ini untuk pengenalan kepada dunia machine learning

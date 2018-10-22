@@ -1,10 +1,13 @@
 # Dasar Pemrograman
 
-!!! info "Informasi"
-    Silakan enroll di e-learning dengan menggunakan kata kunci "python".
+!!! warning "Umpan balik"
+    Mohon untuk mengisi formulir umpan balik perkuliahan di [sini](https://goo.gl/forms/glPoiIrZRNJLrHYl2).
 
 !!! tip "Tips"
     Ada baiknya untuk kuliah ini Anda menginstalasi Python dengan menggunakan [Anaconda](https://www.anaconda.com/download/) untuk menghindari proses instalasi pustaka tambahan. Semua pustaka tambahan untuk membuat Python bisa melakukan analisis data dan kebutuhan saintifik seperti MATLAB sudah ada dalam Anaconda.
+
+!!! tip "Coding for Kids"
+    Anda mungkin akan tertarik untuk mencoba [tautan ini](https://www.google.com/doodles/celebrating-50-years-of-kids-coding) sebagai latihan awal untuk memahami konsep programming.
 
 ## Tugas 1
 
@@ -29,3 +32,24 @@ Dalam tugas ini, Anda diminta untuk membuat program untuk merekapitulasi nilai. 
 
 !!! warning "Tenggat"
     Sabtu, 4 November 2017, pukul 23.55 WIB
+
+## Tugas 3
+
+[Notebook Tugas 3](https://nbviewer.jupyter.org/github/aliakbars/uai-daspro/blob/master/scripts/tugas3.ipynb)
+
+Dalam tugas ini, Anda diminta untuk menghitung BMI dan memprediksi berat badan dari tinggi badan dengan menggukan regresi linear sederhana. Tugas ini dikumpulkan melalui e-learning.
+
+!!! warning "Tenggat"
+    Senin, 25 November 2017, pukul 23.55 WIB
+
+## Tugas 4
+
+[Notebook Tugas 4](https://nbviewer.jupyter.org/github/aliakbars/uai-daspro/blob/master/scripts/tugas4.ipynb)
+
+Dalam tugas ini, Anda diminta untuk mengeksplorasi nilai nutrisi dari menu McDonald's. Dataset tersebut didapatkan dari situs [Kaggle](https://www.kaggle.com/mcdonalds/nutrition-facts).
+
+!!! warning "Tenggat"
+    Senin, 15 Januari 2018, pukul 23.55 WIB
+
+!!! tip "Tips"
+    Anda dapat melihat referensi visualisasi data dari [notebook ini](http://nbviewer.jupyter.org/github/aliakbars/uai-python/blob/master/scripts/week9/visualisation.ipynb) atau [ini](http://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/lab1.ipynb).

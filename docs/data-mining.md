@@ -1,3 +1,5 @@
+description: Kebutuhan untuk mengolah dan mengambil pengetahuan dari big data menjadi topik yang sedang hangat dibicarakan industri. Kuliah ini mengajarkan berbagai algoritma machine learning seperti naives bayes, nearest neighbor, linear regression, k-means, hingga sistem rekomendasi. Sebagai pendahuluan, Anda juga akan belajar tentang exploratory data analysis.
+
 # Data Mining
 
 ## Pendahuluan
@@ -47,8 +49,8 @@ Intuisi yang lebih baik untuk Mahalanobis distance bisa dibaca di [sini](http://
 
 Dalam tugas ini, Anda diminta untuk melakukan eksplorasi, analisis, dan visualisasi terhadap dataset yang berisi film dari IMDB. Anda akan mencari tahu hal-hal yang berkaitan dengan kesuksesan sebuah film. Berdasarkan perhitungan *similarity*, Anda akan diminta juga melakukan klasifikasi sederhana terhadap data baru yang diberikan. Tugas ini dikumpulkan melalui situs e-learning UAI.
 
-!!! warning "Tenggat"
-    Kamis, 12 Oktober 2017, pukul 23.55 WIB
+<!-- !!! warning "Tenggat"
+    Kamis, 12 Oktober 2017, pukul 23.55 WIB -->
 
 ## Klasifikasi
 
@@ -76,8 +78,8 @@ Pohon keputusan merupakan algoritma klasifikasi yang memudahkan pengguna untuk m
 
 Dalam tugas ini, Anda diminta untuk melakukan klasifikasi dengan menggunakan algoritma Naive Bayes dan Decision Trees. Anda diminta menjelaskan dan mengimplementasikan beberapa komponen dari kedua jenis algoritma tersebut. Silakan merujuk ke materi praktikum 2 untuk mencari beberapa referensi kode yang dapat digunakan. Tugas ini dikumpulkan melalui situs e-learning UAI.
 
-!!! warning "Tenggat"
-    Kamis, 26 Oktober 2017, pukul 23.55 WIB
+<!-- !!! warning "Tenggat"
+    Kamis, 26 Oktober 2017, pukul 23.55 WIB -->
 
 ## Evaluasi Model
 
@@ -102,6 +104,15 @@ Minggu ini ada sedikit materi tambahan. Silakan cek kembali materi praktikum 2 u
 
 Setelah berkutat dengan beberapa algoritma klasifikasi, materi minggu ini berisikan salah satu tugas dalam *machine learning* yang lain: regresi. Anda akan dikenalkan dengan regresi linear sederhana dan beberapa pengembangannya. Selain itu, Anda juga akan melihat bagaimana ide regresi linear kemudian bisa diubah untuk kebutuhan klasifikasi. Dalam materi minggu ini, Anda akan melihat dengan lebih jelas perbedaan model generatif dan diskriminatif.
 
+## Tugas 3
+
+[Notebook Tugas 3](https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas3b.ipynb)
+
+Dalam tugas ini, Anda diminta untuk melakukan inferensi dengan regresi linear terhadap data diabetes. Terdapat beberapa pertanyaan konseptual juga yang harus Anda jawab dalam tugas ini untuk menguji pemahaman Anda.
+
+<!-- !!! warning "Tenggat"
+    Rabu, 6 Desember 2017, pukul 23.55 WIB -->
+
 ## Model Berdasarkan Perhitungan Jarak
 
 [Salindia minggu ke-9: k-Nearest Neighbours &amp; k-Means Clustering](https://github.com/aliakbars/uai-dm/raw/master/09-knn.pdf)
@@ -118,19 +129,24 @@ Tidak ada hubungan yang khusus antara kedua algoritma yang dikenalkan minggu ini
 
 Materi minggu ini merupakan pengembangan dari algoritma k-Means. Dengan menggunakan pendekatan parametrik, kita bisa menghasilkan clustering dengan model generatif. Lihat kembali tentang materi distribusi Gaussian untuk memahami dengan lebih baik materi minggu ini. Selain itu, kita juga akan melihat bahwa alih-alih menentukan nilai K dari awal, kita bisa membuat level granularity dari klaster yang dihasilkan dengan membuat hierarki.
 
+## Tugas 4
+
+[Notebook Tugas 4](https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas4b.ipynb)
+
+[Dataset Tugas 4](https://github.com/aliakbars/uai-dm/raw/master/dataset/menu.csv)
+
+Dalam tugas ini, Anda diminta untuk melakukan klasifikasi dengan algoritma yang berdasarkan pada perhitungan jarak. Anda juga akan mengeksplorasi pemanfaatan algoritma *clustering* untuk melakukan klasifikasi.
+
+<!-- !!! warning "Tenggat"
+    Rabu, 27 Desember 2017, pukul 23.55 WIB -->
+
 ## Reduksi Dimensi
 
 [Salindia minggu ke-11: Dimensionality Reduction](https://github.com/aliakbars/uai-dm/raw/master/11-dim.pdf)
 
+[Praktikum 6: Dimensionality Reduction](https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/lab6.ipynb)
+
 Dimensionality reduction merupakan bagian dari *unsupervised learning* yang biasanya digunakan untuk bermacam hal, misalnya membantu visualisasi, mempercepat proses klasifikasi, hingga *noise filtering*. Minggu ini, kita akan membahas salah satu algoritma yang umum digunakan untuk reduksi dimensi, yaitu Principal Component Analysis (PCA).
-
-<!-- ## Tugas 3
-[Notebook Tugas 3](https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas3.ipynb)
-
-Dalam tugas ini, Anda diminta untuk melakukan klasifikasi dan *clustering* dengan menggunakan algoritma k-Nearest Neighbours dan k-Means. Anda juga akan melihat efek dari penerapan reduksi dimensi dengan Principal Component Analysis terhadap hasil klasifikasi dan *clustering*. Tugas ini dikumpulkan melalui situs e-learning UAI.
-
-!!! warning "Tenggat"
-    Sabtu, 27 Mei 2017, pukul 23.55 WIB -->
 
 ## Analisis Keranjang Belanja
 
@@ -142,17 +158,13 @@ Materi minggu ke-12 akan diisi oleh Ir. Endang Ripmiatin, M.T.
 
 Materi ini dapat dianggap sebagai salah satu implementasi dari semua materi yang telah diberikan sebelumnya. Kita akan mengulas kembali konsep jarak antarobjek, klasifikasi, *clustering*, dan reduksi dimensi dalam membuat sistem rekomendasi. Materi ini sekaligus jadi materi terakhir dalam kuliah ini. Silakan baca lebih lanjut di buku Mining of Massive Datasets pada Chapter 9 untuk tahu detailnya.
 
-<!-- ## Tugas 4
+## Tugas 5
 
-[Notebook Tugas 4](https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas4.ipynb)
+[Notebook Tugas 5](https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas5.ipynb)
 
-[Dataset Tugas 4: Movies](https://github.com/aliakbars/uai-dm/raw/master/dataset/ml/movies.csv)
+[Dataset Tugas 5: User-Artist](https://github.com/aliakbars/uai-dm/raw/master/dataset/lastfm/user_artists.dat)
 
-[Dataset Tugas 4: Ratings](https://github.com/aliakbars/uai-dm/raw/master/dataset/ml/ratings.csv)
+Anda diminta untuk membangun dan membandingkan beberapa metode sistem rekomendasi.
 
-[Dataset Tugas 4: Tags](https://github.com/aliakbars/uai-dm/raw/master/dataset/ml/tags.csv)
-
-Tugas kali ini merupakan gabungan materi dari beberapa kuliah sebelumnya. Anda diminta untuk membangun dan membandingkan beberapa metode sistem rekomendasi. Tugas ini dikumpulkan melalui situs e-learning UAI.
-
-!!! warning "Tenggat"
-    Rabu, 21 Juni 2017, pukul 23.55 WIB -->
+<!-- !!! warning "Tenggat"
+    Rabu, 17 Januari 2018, pukul 23.55 WIB -->
