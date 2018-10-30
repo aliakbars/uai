@@ -1,92 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>http://uai.aliakbars.com/</loc>
+     <loc>http://uai.aliakbars.com/index.html</loc>
      <lastmod>2018-10-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://uai.aliakbars.com/ai/</loc>
+     <loc>http://uai.aliakbars.com/ai.html</loc>
      <lastmod>2018-10-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://uai.aliakbars.com/data-mining/</loc>
+     <loc>http://uai.aliakbars.com/data-mining.html</loc>
      <lastmod>2018-10-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://uai.aliakbars.com/mlpr/</loc>
+     <loc>http://uai.aliakbars.com/mlpr.html</loc>
      <lastmod>2018-10-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://uai.aliakbars.com/python/</loc>
+     <loc>http://uai.aliakbars.com/python.html</loc>
      <lastmod>2018-10-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://uai.aliakbars.com/soft-computing/</loc>
+     <loc>http://uai.aliakbars.com/soft-computing.html</loc>
      <lastmod>2018-10-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://uai.aliakbars.com/daspro/</loc>
+     <loc>http://uai.aliakbars.com/daspro.html</loc>
      <lastmod>2018-10-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://uai.aliakbars.com/final/ai-ta/</loc>
+     <loc>http://uai.aliakbars.com/final/ai-ta.html</loc>
      <lastmod>2018-10-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://uai.aliakbars.com/final/mlpr-ta/</loc>
+     <loc>http://uai.aliakbars.com/final/mlpr-ta.html</loc>
      <lastmod>2018-10-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://uai.aliakbars.com/projects/</loc>
+     <loc>http://uai.aliakbars.com/faq.html</loc>
      <lastmod>2018-10-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://uai.aliakbars.com/projects/chatbot/</loc>
-     <lastmod>2018-10-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://uai.aliakbars.com/projects/concert/</loc>
-     <lastmod>2018-10-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://uai.aliakbars.com/projects/image/</loc>
-     <lastmod>2018-10-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://uai.aliakbars.com/projects/naive-bayes/</loc>
-     <lastmod>2018-10-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://uai.aliakbars.com/projects/quiz/</loc>
-     <lastmod>2018-10-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://uai.aliakbars.com/projects/tictactoe/</loc>
-     <lastmod>2018-10-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://uai.aliakbars.com/faq/</loc>
-     <lastmod>2018-10-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://uai.aliakbars.com/about/</loc>
+     <loc>http://uai.aliakbars.com/about.html</loc>
      <lastmod>2018-10-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
