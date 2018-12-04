@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-2.1.1">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-2.2.0">
     
     
       
@@ -42,13 +42,13 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.1411ec6b.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.5d3fffba.css">
       
-        <link rel="stylesheet" href="../assets/stylesheets/application-palette.d142ea54.css">
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.fbd935c7.css">
       
     
     
-      <script src="../assets/javascripts/modernizr.f383bccf.js"></script>
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
     
     
       
@@ -164,6 +164,9 @@
 </header>
     
     <div class="md-container">
+      
+        
+      
       
       <main class="md-main">
         <div class="md-main__inner md-grid" data-md-component="container">
@@ -330,6 +333,20 @@
         <li class="md-nav__item">
   <a href="#carian" title="Carian" class="md-nav__link">
     Carian
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-3" title="Tugas 3" class="md-nav__link">
+    Tugas 3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proposal-tugas-akhir" title="Proposal Tugas Akhir" class="md-nav__link">
+    Proposal Tugas Akhir
   </a>
   
 </li>
@@ -578,6 +595,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#tugas-3" title="Tugas 3" class="md-nav__link">
+    Tugas 3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proposal-tugas-akhir" title="Proposal Tugas Akhir" class="md-nav__link">
+    Proposal Tugas Akhir
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#reinforcement-learning" title="Reinforcement Learning" class="md-nav__link">
     Reinforcement Learning
   </a>
@@ -631,14 +662,14 @@
 <p>"Apa itu Artificial Intelligence?" Meski banyak yang sudah mendengar namanya, tapi ternyata tidak banyak yang menyadari bahwa inteligensi buatan sudah menjadi bagian dari keseharian kita. Google yang Anda gunakan hampir setiap hari itu terdiri dari berbagai komponen cerdas yang dibangun oleh para insinyur di dalamnya. Ada beberapa pertanyaan filosofis tentang inteligensi buatan yang juga akan dicoba dijawab dalam pertemuan ini. Pertemuan ini akan menjelaskan lebih lengkap tentang alur penyampaian materi kuliah ini selama satu semester ke depan.</p>
 <h2 id="regresi-dan-optimasi">Regresi dan Optimasi<a class="headerlink" href="#regresi-dan-optimasi" title="Permanent link">&para;</a></h2>
 <p><a href="https://github.com/aliakbars/uai-ai/raw/master/02-regresi.pdf">Salindia minggu ke-2: Regresi Linear</a></p>
-<p><a href="https://github.com/aliakbars/uai-ai/raw/master/notes-02.pdf">Catatan minggu ke-2</a></p>
+<p><a href="https://github.com/aliakbars/uai-ai/raw/2018/notes-02.pdf">Catatan minggu ke-2</a></p>
 <p>Inteligensi pada tingkatan paling rendah adalah model yang diberikan kemampuan refleks. Salah satu cara untuk membentuk model tersebut adalah dengan melihat tugas yang dihadapi sebagai masalah regresi. Materi ini membahas bagaimana kita bisa memprediksi suatu nilai numerik berdasarkan nilai-nilai lain yang diketahui, misalnya mencari nilai <em>likes</em> di Facebook berdasarkan jumlah <em>share</em> dan komentar suatu pos. Proses pencarian model yang optimal tersebut juga akan dibahas dalam pertemuan kali ini. <em>Time to brush up your calculus and linear algebra skills!</em></p>
 <div class="admonition info">
 <p class="admonition-title">Referensi</p>
 <p>Untuk materi aljabar linear, Anda dapat membaca buku <em>Deep Learning</em> (Goodfellow et al., 2016) <a href="http://www.deeplearningbook.org/contents/linear_algebra.html">Chapter 2</a>.</p>
 </div>
 <p><a href="https://github.com/aliakbars/uai-ai/raw/master/03-klasifikasi.pdf">Salindia minggu ke-3: Klasifikasi: Regresi Logistik</a></p>
-<p><a href="https://github.com/aliakbars/uai-ai/raw/master/notes-03.pdf">Catatan minggu ke-3</a></p>
+<p><a href="https://github.com/aliakbars/uai-ai/raw/2018/notes-03.pdf">Catatan minggu ke-3</a></p>
 <p>Bagaimana kalau yang ingin kita prediksi nilainya berupa kategori? Misalnya, jika diberikan suatu teks, apakah teks tersebut spam atau bukan? Setelah berkutat dengan data numerik, kita akan mengeksplorasi penggunaan model linear lebih lanjut untuk melakukan klasifikasi. Berbeda dengan regresi linear, regresi logistik menggunakan metode optimasi yang berbeda, optimasi numerik. Oleh karena itu, kita akan belajar lebih lanjut tentang metode <em>gradient descent</em>.</p>
 <h2 id="melatih-model-linear">Melatih Model Linear<a class="headerlink" href="#melatih-model-linear" title="Permanent link">&para;</a></h2>
 <p><a href="https://github.com/aliakbars/uai-ai/raw/master/04-training.pdf">Salindia minggu ke-4: Training vs Testing</a></p>
@@ -682,38 +713,32 @@ Untuk yang sifatnya lebih teoritis, Anda bisa melihat buku [Neural Networks and 
 <p>Setingkat di atas refleks, agen cerdas juga perlu untuk memahami <em>state</em> dia berada sekarang dan menentukan sekumpulan aksi yang harus diambil agar mencapai tujuannya. Pertemuan ini membahas agen cerdas yang memanfaatkan informasi yang terbatas untuk mencari solusi optimal berupa urutan aksi.</p>
 <p><a href="https://github.com/aliakbars/uai-ai/raw/master/09-search-2.pdf">Salindia minggu ke-9: Informed Search</a></p>
 <p>Agen cerdas yang dibahas di minggu sebelumnya adalah agen yang "buta". Ini berarti bahwa agen cerdas tersebut tidak mengetahui bahwa terkadang alternatif jalur yang diambil malah menjauhi solusi optimalnya. Materi minggu ini membahas bagaimana kita dapat memperbaiki agen cerdas tersebut dengan memanfaatkan <em>heuristik</em>.</p>
-<!-- ## Tugas 3
-
-[Deskripsi Tugas 3](https://github.com/aliakbars/uai-ai/raw/master/tugas-3.pdf)
-
-Dalam tugas ini, Anda diminta untuk mengimplementasikan beberapa algoritma carian untuk menyelesaikan kasus-kasus terkait. Tugas ini harus Anda kumpulkan dalam format PDF. Anda hanya perlu membuat kode pada bagian 1. Cantumkan kode tersebut ke dalam file PDF Anda. Dengan kata lain, **tidak ada file untuk source code yang perlu Anda cantumkan**. Anda dapat menggunakan bahasa Java atau Python untuk kode pada bagian 1 tersebut.
-
-!!! warning "Tenggat"
-    Sabtu, 16 Desember 2017, pukul 23.55 WIB -->
-
-<!-- ## Proposal Tugas Akhir
-
-[Template Proposal](https://github.com/aliakbars/uai-ai/tree/master/makalah)
-
-Anda diminta untuk membuat sebuah makalah dan poster sebagai pengganti nilai ujian akhir semester (UAS). Untuk kebutuhan tersebut, Anda diminta untuk mengumpulkan proposal penelitian Anda terlebih dahulu. Sebagai gambaran, proposal penelitian Anda ini akan mengandung pendahuluan yang berisi latar belakang dan tujuan penelitian Anda, landasan teori berupa ulasan makalah terkait, dan pengajuan Anda untuk metode yang akan digunakan.
-
-Untuk tugas ini, topik yang Anda pilih disarankan berkaitan dengan materi paruh semester kedua, yaitu **searching, dynamic programming, genetic algorithm, reinforcement learning, Q-learning, game theory,** atau **Bayesian networks**. Jika Anda kesulitan dengan topik tersebut, Anda diperbolehkan mengambil topik *machine learning*, dengan syarat bahwa tingkat kesulitannya akan di atas makalah dengan topik dari materi paruh semester kedua.
-
-Beberapa topik yang menarik untuk diadaptasi antara lain:
-
-- [Congklak with RL](http://ieeexplore.ieee.org/abstract/document/7863309/)
-- [MarI/O](https://www.youtube.com/watch?v=qv6UVOQ0F44) & [NEAT](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf)
-- [Atari breakout with Deep Q-learning](https://www.youtube.com/watch?v=V1eYniJ0Rnk)
-- [Bayesian Bandits](https://www.chrisstucchio.com/blog/2013/bayesian_bandit.html) & [Multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit)
-- [AlphaGo](https://deepmind.com/research/alphago/)
-- [Alpha-Beta tree search for Checkers](http://www.cs.columbia.edu/~devans/TIC/AB.html)
-
-!!! info "Contoh Poster"
-    Contoh poster yang Anda harus buat sebagai bagian dari tugas akhir dapat Anda lihat di [sini](http://cs231n.stanford.edu/reports/2017/posters/). Proposal yang Anda buat nanti akan berukuran kertas A1.
-
-Keterangan lebih lanjut tentang tugas ini akan segera dimuat di situs ini. Silakan cek laman ini secara berkala.
-
-!!! warning "Tenggat Proposal"
+<h2 id="tugas-3">Tugas 3<a class="headerlink" href="#tugas-3" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-ai/raw/2018/tugas-3.pdf">Deskripsi Tugas 3</a></p>
+<p>Dalam tugas ini, Anda diminta untuk mengimplementasikan beberapa algoritma carian untuk menyelesaikan kasus-kasus terkait. Tugas ini harus Anda kumpulkan dalam format PDF. Anda hanya perlu membuat kode pada bagian 1. Cantumkan kode tersebut ke dalam file PDF Anda. Dengan kata lain, <strong>tidak ada file untuk source code yang perlu Anda cantumkan</strong>. Anda dapat menggunakan bahasa Java atau Python untuk kode pada bagian 1 tersebut.</p>
+<div class="admonition warning">
+<p class="admonition-title">Tenggat</p>
+<p>Selasa, 11 Desember 2018, pukul 23.55 WIB</p>
+</div>
+<h2 id="proposal-tugas-akhir">Proposal Tugas Akhir<a class="headerlink" href="#proposal-tugas-akhir" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-ai/tree/master/makalah">Template Proposal</a></p>
+<p>Anda diminta untuk membuat sebuah makalah dan poster sebagai pengganti nilai ujian akhir semester (UAS). Untuk kebutuhan tersebut, Anda diminta untuk mengumpulkan proposal penelitian Anda terlebih dahulu. Sebagai gambaran, proposal penelitian Anda ini akan mengandung pendahuluan yang berisi latar belakang dan tujuan penelitian Anda, landasan teori berupa ulasan makalah terkait, dan pengajuan Anda untuk metode yang akan digunakan.</p>
+<p>Untuk tugas ini, topik yang Anda pilih disarankan berkaitan dengan materi paruh semester kedua, yaitu <strong>searching, dynamic programming, genetic algorithm, reinforcement learning, Q-learning, game theory,</strong> atau <strong>Bayesian networks</strong>. Jika Anda kesulitan dengan topik tersebut, Anda diperbolehkan mengambil topik <em>machine learning</em>, dengan syarat bahwa tingkat kesulitannya akan di atas makalah dengan topik dari materi paruh semester kedua.</p>
+<p>Beberapa topik yang menarik untuk diadaptasi antara lain:</p>
+<ul>
+<li><a href="http://ieeexplore.ieee.org/abstract/document/7863309/">Congklak with RL</a></li>
+<li><a href="https://www.youtube.com/watch?v=qv6UVOQ0F44">MarI/O</a> &amp; <a href="http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf">NEAT</a></li>
+<li><a href="https://www.youtube.com/watch?v=V1eYniJ0Rnk">Atari breakout with Deep Q-learning</a></li>
+<li><a href="https://www.chrisstucchio.com/blog/2013/bayesian_bandit.html">Bayesian Bandits</a> &amp; <a href="https://en.wikipedia.org/wiki/Multi-armed_bandit">Multi-armed bandit</a></li>
+<li><a href="https://deepmind.com/research/alphago/">AlphaGo</a></li>
+<li><a href="http://www.cs.columbia.edu/~devans/TIC/AB.html">Alpha-Beta tree search for Checkers</a></li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Contoh Poster</p>
+<p>Contoh poster yang Anda harus buat sebagai bagian dari tugas akhir dapat Anda lihat di <a href="http://cs231n.stanford.edu/reports/2017/posters/">sini</a>. Proposal yang Anda buat nanti akan berukuran kertas A1.</p>
+</div>
+<p>Keterangan lebih lanjut tentang tugas ini akan segera dimuat di situs ini. Silakan cek laman ini secara berkala.</p>
+<!-- !!! warning "Tenggat Proposal"
     Selasa, 5 Desember 2017, pukul 23.55 WIB -->
 
 <h2 id="reinforcement-learning">Reinforcement Learning<a class="headerlink" href="#reinforcement-learning" title="Permanent link">&para;</a></h2>
@@ -834,14 +859,14 @@ Secara umum, tugas ini berhubungan dengan game dan pengambilan strategi terbaik 
       
     </div>
     
-      <script src="../assets/javascripts/application.9a4a50d4.js"></script>
+      <script src="../assets/javascripts/application.6cdc17f0.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
     
     
       
-      <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-93695540-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-93695540-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
       
     
   </body>
