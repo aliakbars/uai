@@ -2,9 +2,6 @@ description: Kebutuhan untuk mengolah dan mengambil pengetahuan dari big data me
 
 # Pengenalan Pola
 
-!!! warning "Umpan balik"
-    Mohon untuk mengisi formulir umpan balik perkuliahan di [sini](https://goo.gl/forms/7gLpwu6xnqrDQ5Dn2).
-
 ## Pendahuluan
 
 Ada baiknya untuk sedikit mengulas materi aljabar linear, kalkulus, dan statistika Anda sebelum memulai kuliah ini. Beberapa orang merekomendasikan untuk belajar dari bagian pertama buku [Deep Learning](http://www.deeplearningbook.org/) yang ditulis oleh Ian Goodfellow dkk. Untuk pemahaman lebih lanjut, Anda juga bisa melihat materi probabilitas untuk ilmu komputer yang sangat menarik di kuliah Stanford [CS109: Probability for Computer Scientists](http://web.stanford.edu/class/cs109/index.html).
@@ -12,7 +9,7 @@ Ada baiknya untuk sedikit mengulas materi aljabar linear, kalkulus, dan statisti
 !!! info "Referensi"
     Kuliah ini banyak mengadaptasi materi dari [Introductory Applied Machine Learning](http://www.inf.ed.ac.uk/teaching/courses/iaml/) dan [Machine Learning & Pattern Recognition](http://www.inf.ed.ac.uk/teaching/courses/mlpr/) dari the University of Edinburgh, serta [CS229: Machine Learning](http://cs229.stanford.edu/) dari Stanford University.
 
-Beberapa materi kuliah ini juga diadaptasi dari kuliah tahun lalu tentang [Data Mining](http://uai.aliakbars.com/data-mining/). Namun, alur penyampaian kuliah akan sedikit diubah. Selain itu, contoh-contoh kasusnya akan lebih banyak berkaitan dengan masalah-masalah dalam *computer vision*.
+Beberapa materi kuliah ini juga diadaptasi dari kuliah [Data Mining](http://uai.aliakbars.com/data-mining/). Namun, alur penyampaian kuliah akan sedikit diubah. Selain itu, contoh-contoh kasusnya akan lebih banyak berkaitan dengan masalah-masalah dalam *computer vision*.
 
 Anda dapat membuat *clone* dari repositori mata kuliah ini di [sini](https://github.com/aliakbars/uai-mlpr).
 
@@ -29,34 +26,50 @@ Apa hubungannya *data mining*, *machine learning*, dan pengenalan pola? Uraian s
 
 Di minggu ini, kita akan membahas tentang konsep peluang, peubah acak, dan beberapa materi lainnya yang berkaitan dengan ketidakpastian yang akan membantu untuk memahami materi-materi di beberapa pertemuan berikutnya. Sangat disarankan bagi Anda untuk melihat kuliah Stanford CS109 dan [Harvard Stats 110](https://www.youtube.com/watch?v=KbB0FjPg0mw&list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo).
 
-[Salindia minggu ke-3: Distribusi Kontinu dan Diskrit](https://github.com/aliakbars/uai-mlpr/raw/master/03-distribution.pdf)
+[Salindia minggu ke-3: Distribusi Diskrit](https://github.com/aliakbars/uai-mlpr/raw/master/03-discrete.pdf)
 
-Sebagi dasar untuk masuk ke materi berikutnya tentang Naive Bayes, di minggu ini kita akan membahas beberapa jenis distribusi yang akan sering dijumpai untuk pemodelan data. Anda akan belajar untuk mengestimasi nilai parameter dari suatu distribusi yang dapat menjelaskan data dengan baik (Maximum Likelihood Estimation). Gunakan [SciPy](https://www.scipy.org/) atau [pomegranate](http://pomegranate.readthedocs.io/en/latest/) untuk melakukan pemodelan probabilistik dari contoh-contoh data yang tersedia, misalnya [data menu McDonald's](https://github.com/aliakbars/uai-dm/blob/master/dataset/menu.csv).
+[Salindia minggu ke-4: Distribusi Kontinu](https://github.com/aliakbars/uai-mlpr/raw/master/04-kontinu.pdf)
 
-[Salindia minggu ke-4: Naive Bayes](https://github.com/aliakbars/uai-mlpr/raw/master/04-nb.pdf)
+Sebagi dasar untuk masuk ke materi berikutnya tentang Naive Bayes, di minggu ini kita akan membahas beberapa jenis distribusi yang akan sering dijumpai untuk pemodelan data. Anda akan belajar untuk mengestimasi nilai parameter dari suatu distribusi yang dapat menjelaskan data dengan baik (Maximum Likelihood Estimation). Gunakan [SciPy](https://www.scipy.org/) untuk melakukan pemodelan probabilistik dari contoh-contoh data yang tersedia, misalnya [data menu McDonald's](https://github.com/aliakbars/uai-dm/blob/master/dataset/menu.csv).
 
-[Praktikum 1: Distribusi Gaussian dan Naive Bayes](http://nbviewer.jupyter.org/github/aliakbars/uai-mlpr/blob/master/scripts/lab1.ipynb)
-
-Memanfaatkan konsep yang sudah dipelajari minggu lalu, minggu ini kita akan melihat bagaimana berbagai distribusi tersebut dapat digunakan untuk melakukan klasifikasi. Pelajari multivariate Gaussian dan Bernoulli distribution secara lebih intensif untuk bisa memahami materi ini.
+!!! tip "Soal Latihan Probabilitas dan Statistika"
+    Silakan coba kerjakan soal yang telah saya kurasi di [sini](https://docs.google.com/document/d/19eJuNJJvCIl_ssjAaNLyeflKTqytlTC5frsUzpVL41Q/edit?usp=sharing). Kunci jawaban dapat diminta setelah Anda menunjukkan hasil pekerjaan Anda.
 
 ## Tugas 1
 
-[Notebook Tugas 1](https://nbviewer.jupyter.org/github/aliakbars/uai-mlpr/blob/master/scripts/tugas1.ipynb)
+[Notebook Tugas 1](https://colab.research.google.com/github/aliakbars/uai-mlpr/blob/master/scripts/tugas1b.ipynb)
 
-[Dataset Tugas 1](https://github.com/zalandoresearch/fashion-mnist)
-
-Dalam tugas ini, Anda akan melakukan eksplorasi data, pemilihan model, dan aplikasi Naive Bayes pada data Fashion-MNIST.
+Dalam tugas ini, Anda akan melakukan eksplorasi data dan pemilihan model dari data konsumsi bensin mobil.
 
 !!! warning "Tenggat"
-    Jumat, 6 April 2018, pukul 23.55 WIB
+    Kamis, 19 Maret 2020, pukul 23.55 WIB
+
+[Salindia minggu ke-5: Naive Bayes](https://github.com/aliakbars/uai-mlpr/raw/master/05-nb.pdf)
+
+[Video minggu ke-5: Naive Bayes](https://www.youtube.com/watch?v=IKG_HcOdhEs)
+
+[Praktikum 1: Distribusi Gaussian dan Naive Bayes](https://colab.research.google.com/github/aliakbars/uai-mlpr/blob/master/scripts/lab1.ipynb)
+
+Memanfaatkan konsep yang sudah dipelajari minggu lalu, minggu ini kita akan melihat bagaimana berbagai distribusi tersebut dapat digunakan untuk melakukan klasifikasi. Pelajari multivariate Gaussian dan Bernoulli distribution secara lebih intensif untuk bisa memahami materi ini.
 
 ## Dimensionality Reduction
 
-[Salindia minggu ke-5: Dimensionality Reduction](https://github.com/aliakbars/uai-mlpr/raw/master/05-dim.pdf)
+[Salindia minggu ke-6: Dimensionality Reduction](https://github.com/aliakbars/uai-mlpr/raw/master/06-dim.pdf)
+
+[Video minggu ke-6: Naive Bayes](https://www.youtube.com/watch?v=Qq9v4AyTdAo)
 
 Dalam multivariate Gaussian, Anda menghitung matriks kovariansi yang menggambarkan variansi dari tiap variabel dan hubungan antarvariabel. Ingat bahwa dalam kasus MNIST, selalu ada variabel yang tidak pernah berubah nilainya. Jadi, apakah kita masih membutuhkan variabel tersebut? Metode yang akan Anda pelajari di minggu ini akan membantu Anda dalam mereduksi dimensi yang tinggi menjadi beberapa dimensi yang bermakna saja. Untuk melakukan hal tersebut, Anda memerlukan kovariansi matriks yang dihitung tadi.
 
-## Model Linear
+## Tugas 2
+
+[Notebook Tugas 2](https://colab.research.google.com/github/aliakbars/uai-mlpr/blob/master/scripts/tugas2b.ipynb)
+
+Dalam tugas ini, Anda akan mengulas materi tentang Naive Bayes dan PCA dengan menerapkannya pada dataset wajah.
+
+!!! warning "Tenggat"
+    Sabtu, 4 April 2020, pukul 23.55 WIB
+
+<!-- ## Model Linear
 
 [Salindia minggu ke-6: Model Linear](https://github.com/aliakbars/uai-mlpr/raw/master/06-linear.pdf)
 
@@ -68,18 +81,7 @@ Model linear secara umum sudah pernah dibahas di mata kuliah Kecerdasan Buatan. 
 
 Apakah model *machine learning* selalu hanya berupa *trial and error*? Pada minggu ini, topik yang akan dibahas adalah bagaimana kita dapat mengevaluasi model dan menentukan perbaikan seperti apa yang dapat dilakukan terhadap model tersebut. Beberapa konsep penting yang akan dibahas antara lain *bias-variance trade-off*, *underfitting*, *overfitting*, dan beberapa metrik yang dapat digunakan untuk mengevaluasi model dalam kasus klasifikasi maupun regresi.
 
-## Tugas 2
 
-[Notebook Tugas 2](https://nbviewer.jupyter.org/github/aliakbars/uai-mlpr/blob/master/scripts/tugas2.ipynb)
-
-[Dataset Tugas 2](https://drive.google.com/open?id=0B5Ei3oQejW8NUkViTXkzOXVpN3c)
-
-[Label Dataset Tugas 2](https://drive.google.com/open?id=0B5Ei3oQejW8Nd0ZWYlV0QTJJYlE)
-
-Dalam tugas ini, Anda akan mengulas materi tentang Naive Bayes, PCA, model linear, dan evaluasi model dengan menerapkannya pada dataset Quick Draw.
-
-!!! warning "Tenggat"
-    Selasa, 24 April 2018, pukul 23.55 WIB
 
 ## Neural Networks, k-NN, dan k-Means
 
@@ -97,11 +99,11 @@ setelah mendapat materi tentang k-Means di beberapa pertemuan sebelumnya, kali i
 
 ## Tugas 4
 
-[Notebook Tugas 4](https://nbviewer.jupyter.org/github/aliakbars/uai-mlpr/blob/master/scripts/tugas4.ipynb)
+[Notebook Tugas 4](https://colab.research.google.com/github/aliakbars/uai-mlpr/blob/master/scripts/tugas4.ipynb)
 
 [Dataset Tugas 4](https://github.com/aliakbars/uai-mlpr/raw/master/datasets/bbc.csv)
 
 Dalam tugas ini, Anda akan mencoba melakukan *clustering* dengan menggunakan k-Means dan Gaussian Mixture Models pada dataset artikel berita dari BBC.
 
 !!! warning "Tenggat"
-    Minggu, 24 Juni 2018, pukul 23.55 WIB
+    Minggu, 24 Juni 2018, pukul 23.55 WIB -->

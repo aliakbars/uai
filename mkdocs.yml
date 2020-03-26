@@ -2,7 +2,7 @@
 site_name: 'Universitas Al Azhar Indonesia'
 site_description: Ali Akbar's homepage for UAI. Lectures about data science, data mining, machine learning, deep learning, and artificial intelligence. Mostly done with Python.
 site_author: 'Ali Akbar Septiandri'
-site_url: 'http://uai.aliakbars.com'
+site_url: 'https://uai.aliakbars.id'
 
 # Pages
 pages:
@@ -33,19 +33,21 @@ repo_name: 'aliakbars/uai'
 repo_url: 'https://github.com/aliakbars/uai'
 
 # Copyright
-copyright: 'Copyright &copy; 2017-2018 Ali Akbar Septiandri'
+copyright: 'Copyright &copy; 2017-2020 Ali Akbar Septiandri'
 
 # Documentation and theme
 theme:
   name: 'material'
   palette:
-    primary: 'blue grey'
+    primary: 'blue'
     accent: 'yellow'
 
 # Options
 extra:
   # logo: 'images/uai.png'
   social:
+    - type: 'twitter'
+      link: 'https://twitter.com/aliakbars'
     - type: 'github'
       link: 'https://github.com/aliakbars'
     - type: 'linkedin'
@@ -61,4 +63,5 @@ markdown_extensions:
   - admonition
   - codehilite
   - meta
-  - toc(permalink=true)
+  - toc:
+       permalink: true
