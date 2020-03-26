@@ -2,7 +2,7 @@
 
 
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
   <head>
     
@@ -13,7 +13,7 @@
         <meta name="description" content="Kebutuhan untuk mengolah dan mengambil pengetahuan dari big data menjadi topik yang sedang hangat dibicarakan industri. Kuliah ini mengajarkan berbagai algoritma machine learning seperti naives bayes, nearest neighbor, linear regression, k-means, hingga sistem rekomendasi. Sebagai pendahuluan, Anda juga akan belajar tentang exploratory data analysis.">
       
       
-        <link rel="canonical" href="http://uai.aliakbars.com/data-mining/">
+        <link rel="canonical" href="https://uai.aliakbars.id/data-mining/">
       
       
         <meta name="author" content="Ali Akbar Septiandri">
@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
     
     
       
@@ -46,23 +46,23 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.11e41852.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.adb8469c.css">
       
-        <link rel="stylesheet" href="../assets/stylesheets/application-palette.22915126.css">
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
       
       
         
         
-        <meta name="theme-color" content="#546e7a">
+        <meta name="theme-color" content="#2196f3">
       
     
     
-      <script src="../assets/javascripts/modernizr.20ef595d.js"></script>
+      <script src="../assets/javascripts/modernizr.86422ebf.js"></script>
     
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
@@ -70,34 +70,45 @@
     
     
     
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-93695540-1", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
   </head>
   
     
     
-    <body dir="ltr" data-md-color-primary="blue-grey" data-md-color-accent="yellow">
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="yellow">
   
     <svg class="md-svg">
       <defs>
         
         
-          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
-    viewBox="0 0 416 448" id="__github">
-  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
-        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
-        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
-        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
-        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
-        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
-        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
-        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
-        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
-        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
-        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
-        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
-        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
-        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
-        99.5z" />
-</svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
         
       </defs>
     </svg>
@@ -105,7 +116,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#data-mining" tabindex="1" class="md-skip">
+      <a href="#data-mining" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -114,7 +125,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="http://uai.aliakbars.com/" title="Universitas Al Azhar Indonesia" class="md-header-nav__button md-logo">
+        <a href="https://uai.aliakbars.id" title="Universitas Al Azhar Indonesia" aria-label="Universitas Al Azhar Indonesia" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -126,27 +137,26 @@
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
-            
-              <span class="md-header-nav__topic">
-                Universitas Al Azhar Indonesia
-              </span>
-              <span class="md-header-nav__topic">
+            <span class="md-header-nav__topic">
+              Universitas Al Azhar Indonesia
+            </span>
+            <span class="md-header-nav__topic">
+              
                 Data Mining
-              </span>
-            
+              
+            </span>
           
         </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
           
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
       <label class="md-icon md-search__icon" for="__search"></label>
       <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
         &#xE5CD;
@@ -164,7 +174,6 @@
     </div>
   </div>
 </div>
-          
         
       </div>
       
@@ -175,20 +184,18 @@
 
   
 
-
-  <a href="https://github.com/aliakbars/uai/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      aliakbars/uai
+<a href="https://github.com/aliakbars/uai/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    aliakbars/uai
+  </div>
+</a>
           </div>
         </div>
       
@@ -201,7 +208,7 @@
         
       
       
-      <main class="md-main">
+      <main class="md-main" role="main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
             
@@ -210,7 +217,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="http://uai.aliakbars.com/" title="Universitas Al Azhar Indonesia" class="md-nav__button md-logo">
+    <a href="https://uai.aliakbars.id" title="Universitas Al Azhar Indonesia" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
@@ -224,20 +231,18 @@
 
   
 
-
-  <a href="https://github.com/aliakbars/uai/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      aliakbars/uai
+<a href="https://github.com/aliakbars/uai/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    aliakbars/uai
+  </div>
+</a>
     </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -320,99 +325,120 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pendahuluan" title="Pendahuluan" class="md-nav__link">
+  <a href="#pendahuluan" class="md-nav__link">
     Pendahuluan
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#konsep-data-mining" title="Konsep Data Mining" class="md-nav__link">
+  <a href="#konsep-data-mining" class="md-nav__link">
     Konsep Data Mining
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#eksplorasi-data" title="Eksplorasi Data" class="md-nav__link">
+  <a href="#eksplorasi-data" class="md-nav__link">
     Eksplorasi Data
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tugas-1" title="Tugas 1" class="md-nav__link">
+  <a href="#tugas-1" class="md-nav__link">
     Tugas 1
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#visualisasi-data-dan-storytelling" title="Visualisasi Data dan Storytelling" class="md-nav__link">
-    Visualisasi Data dan Storytelling
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tugas-2" title="Tugas 2" class="md-nav__link">
-    Tugas 2
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#model-linear" title="Model Linear" class="md-nav__link">
-    Model Linear
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tugas-3" title="Tugas 3" class="md-nav__link">
-    Tugas 3
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#klasifikasi" title="Klasifikasi" class="md-nav__link">
+  <a href="#klasifikasi" class="md-nav__link">
     Klasifikasi
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#metode-bayesian" title="Metode Bayesian" class="md-nav__link">
-    Metode Bayesian
+  <a href="#tugas-2" class="md-nav__link">
+    Tugas 2
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#desain-eksperimen" title="Desain Eksperimen" class="md-nav__link">
-    Desain Eksperimen
+  <a href="#evaluasi-model" class="md-nav__link">
+    Evaluasi Model
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#clustering" title="Clustering" class="md-nav__link">
+  <a href="#ulasan-materi" class="md-nav__link">
+    Ulasan Materi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-linear" class="md-nav__link">
+    Model Linear
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-3" class="md-nav__link">
+    Tugas 3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-berdasarkan-perhitungan-jarak" class="md-nav__link">
+    Model Berdasarkan Perhitungan Jarak
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clustering" class="md-nav__link">
     Clustering
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tugas-4" title="Tugas 4" class="md-nav__link">
+  <a href="#tugas-4" class="md-nav__link">
     Tugas 4
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sistem-rekomendasi" title="Sistem Rekomendasi" class="md-nav__link">
+  <a href="#reduksi-dimensi" class="md-nav__link">
+    Reduksi Dimensi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analisis-keranjang-belanja" class="md-nav__link">
+    Analisis Keranjang Belanja
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sistem-rekomendasi" class="md-nav__link">
     Sistem Rekomendasi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-5" class="md-nav__link">
+    Tugas 5
   </a>
   
 </li>
@@ -446,18 +472,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../stats/" title="Pengantar Statistika" class="md-nav__link">
-      Pengantar Statistika
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../python/" title="Python Programming" class="md-nav__link">
       Python Programming
     </a>
@@ -472,6 +486,18 @@
   <li class="md-nav__item">
     <a href="../soft-computing/" title="Soft Computing" class="md-nav__link">
       Soft Computing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../daspro/" title="Dasar Pemrograman" class="md-nav__link">
+      Dasar Pemrograman
     </a>
   </li>
 
@@ -506,8 +532,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../final/ai-ta/" title="Artificial Intelligence" class="md-nav__link">
-      Artificial Intelligence
+    <a href="../final/ai-ta/" title="Artificial Intelligence 17/18" class="md-nav__link">
+      Artificial Intelligence 17/18
     </a>
   </li>
 
@@ -518,20 +544,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../final/mlpr-ta/" title="Pengenalan Pola" class="md-nav__link">
-      Pengenalan Pola
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../final/sc-ta/" title="Soft Computing" class="md-nav__link">
-      Soft Computing
+    <a href="../final/mlpr-ta/" title="Pengenalan Pola 17/18" class="md-nav__link">
+      Pengenalan Pola 17/18
     </a>
   </li>
 
@@ -694,99 +708,120 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pendahuluan" title="Pendahuluan" class="md-nav__link">
+  <a href="#pendahuluan" class="md-nav__link">
     Pendahuluan
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#konsep-data-mining" title="Konsep Data Mining" class="md-nav__link">
+  <a href="#konsep-data-mining" class="md-nav__link">
     Konsep Data Mining
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#eksplorasi-data" title="Eksplorasi Data" class="md-nav__link">
+  <a href="#eksplorasi-data" class="md-nav__link">
     Eksplorasi Data
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tugas-1" title="Tugas 1" class="md-nav__link">
+  <a href="#tugas-1" class="md-nav__link">
     Tugas 1
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#visualisasi-data-dan-storytelling" title="Visualisasi Data dan Storytelling" class="md-nav__link">
-    Visualisasi Data dan Storytelling
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tugas-2" title="Tugas 2" class="md-nav__link">
-    Tugas 2
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#model-linear" title="Model Linear" class="md-nav__link">
-    Model Linear
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tugas-3" title="Tugas 3" class="md-nav__link">
-    Tugas 3
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#klasifikasi" title="Klasifikasi" class="md-nav__link">
+  <a href="#klasifikasi" class="md-nav__link">
     Klasifikasi
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#metode-bayesian" title="Metode Bayesian" class="md-nav__link">
-    Metode Bayesian
+  <a href="#tugas-2" class="md-nav__link">
+    Tugas 2
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#desain-eksperimen" title="Desain Eksperimen" class="md-nav__link">
-    Desain Eksperimen
+  <a href="#evaluasi-model" class="md-nav__link">
+    Evaluasi Model
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#clustering" title="Clustering" class="md-nav__link">
+  <a href="#ulasan-materi" class="md-nav__link">
+    Ulasan Materi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-linear" class="md-nav__link">
+    Model Linear
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-3" class="md-nav__link">
+    Tugas 3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-berdasarkan-perhitungan-jarak" class="md-nav__link">
+    Model Berdasarkan Perhitungan Jarak
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clustering" class="md-nav__link">
     Clustering
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tugas-4" title="Tugas 4" class="md-nav__link">
+  <a href="#tugas-4" class="md-nav__link">
     Tugas 4
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sistem-rekomendasi" title="Sistem Rekomendasi" class="md-nav__link">
+  <a href="#reduksi-dimensi" class="md-nav__link">
+    Reduksi Dimensi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analisis-keranjang-belanja" class="md-nav__link">
+    Analisis Keranjang Belanja
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sistem-rekomendasi" class="md-nav__link">
     Sistem Rekomendasi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tugas-5" class="md-nav__link">
+    Tugas 5
   </a>
   
 </li>
@@ -812,10 +847,10 @@
                 
                 <h1 id="data-mining">Data Mining<a class="headerlink" href="#data-mining" title="Permanent link">&para;</a></h1>
 <h2 id="pendahuluan">Pendahuluan<a class="headerlink" href="#pendahuluan" title="Permanent link">&para;</a></h2>
-<p>Ada baiknya untuk sedikit mengulas materi aljabar linear, kalkulus, dan statistika Anda sebelum memulai kuliah ini. Silakan lihat <a href="http://www.inf.ed.ac.uk/teaching/courses/it/cribsheet.2up.pdf"><em>crib sheet</em></a> yang disediakan oleh Iain Murray. Untuk pemahaman lebih lanjut, Anda juga bisa melihat materi probabilitas untuk ilmu komputer yang sangat menarik di kuliah <a href="https://web.stanford.edu/class/archive/cs/cs109/cs109.1178/">Stanford CS109: Probability for Computer Scientists</a>.</p>
+<p>Ada baiknya untuk sedikit mengulas materi aljabar linear, kalkulus, dan statistika Anda sebelum memulai kuliah ini. Silakan lihat <a href="http://www.inf.ed.ac.uk/teaching/courses/it/cribsheet.2up.pdf"><em>crib sheet</em></a> yang disediakan oleh Iain Murray. Untuk pemahaman lebih lanjut, Anda juga bisa melihat materi probabilitas untuk ilmu komputer yang sangat menarik di kuliah <a href="http://web.stanford.edu/class/cs109/index.html">Stanford: CS109</a>.</p>
 <div class="admonition info">
 <p class="admonition-title">Referensi</p>
-<p>Kuliah ini banyak mengadaptasi materi dari <a href="http://cs109.github.io/2015/">Harvard CS109: Data Science</a>.</p>
+<p>Kuliah ini banyak mengadaptasi materi dari <a href="http://www.inf.ed.ac.uk/teaching/courses/iaml/">Introductory Applied Machine Learning</a> dari the University of Edinburgh.</p>
 </div>
 <p>Karena kuliah ini akan menggunakan Python sebagai bahasa pengantarnya, silakan cek <a href="http://cs231n.github.io/python-numpy-tutorial/">tutorial singkat untuk Python dan Numpy</a>. Anda juga akan menggunakan Jupyter notebook ke depannya. Silakan lihat petunjuk instalasinya di <a href="http://jupyter.org/install.html">sini</a>.</p>
 <p>Anda dapat membuat <em>clone</em> dari repositori mata kuliah ini di <a href="https://github.com/aliakbars/uai-dm">sini</a>.</p>
@@ -827,86 +862,88 @@ dan bagaimana proses pencarian pola dalam data tersebut dapat menjadi hal yang s
 <p><a href="https://github.com/aliakbars/uai-dm/raw/master/02-data.pdf">Salindia minggu ke-2: Tipe dan Jenis Data</a></p>
 <p>Apakah ada hubungannya antara kebiasaan menambahkan kecap dan kacang pada <a href="http://tentangdata.github.io/assets/buburayam.jpg">preferensi untuk mengaduk bubur ayam</a>? Lalu, bagaimana gambar dapat direpresentasikan sebagai data yang dapat diolah oleh algoritma <em>machine learning</em>? Materi di minggu ini membahas tipe dan jenis data serta bagaimana merepresentasikannya. Kasus-kasus seperti <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.96.9248&amp;rep=rep1&amp;type=pdf"><em>imbalanced dataset</em></a> juga akan menjadi poin penting dari kuliah ini.</p>
 <h2 id="eksplorasi-data">Eksplorasi Data<a class="headerlink" href="#eksplorasi-data" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/aliakbars/uai-dm/raw/master/03-jarak.pdf">Salindia minggu ke-3: Jarak Antardata</a></p>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/03-eksplorasi.pdf">Salindia minggu ke-3: Jarak Antardata dan Eksplorasi Data</a></p>
+<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/lab1.ipynb">Praktikum 1: Eksplorasi dan Visualisasi</a></p>
+<p>Visualisasikan data Anda! Visualisasi data dapat membantu dalam memahami tren dan pola-pola menarik dari data Anda. Anda mungkin perlu melihat salindia <a href="https://nces.ed.gov/forum/pdf/NCES_table_design.pdf">ini</a> untuk membantu merancang tabel dan grafik dengan lebih baik. Materi kali ini juga dilengkapi dengan praktikum yang diharapkan dapat memberikan gambaran tentang penggunaan konsep-konsep yang disampaikan di minggu ini.</p>
 <p>Rumus Minkowski distance saat <em>r</em> (atau dalam rumus di bawah ini <em>p</em>) mendekati tak hingga adalah selisih antara dua titik terjauh dalam bidang cartesian. Perhitungan jarak ini juga dikenal dengan nama <a href="https://en.wikipedia.org/wiki/Chebyshev_distance">Chebyshev distance</a>. Dengan kata lain, rumusnya menjadi:</p>
 <p><img alt="Chebyshev distance" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a25e6422d6342df00a038d97507e8ff9a6d56b04" /></p>
 <p>Intuisi yang lebih baik untuk Mahalanobis distance bisa dibaca di <a href="http://stats.stackexchange.com/questions/62092/bottom-to-top-explanation-of-the-mahalanobis-distance">sini</a>. Penjelasan tersebut memberikan gambaran bahwa Mahalanobis distance bekerja seperti Euclidean distance, tetapi sumbu-sumbunya disusun berdasarkan sebaran dari datanya. Kita akan mencari arah sumbu baru beserta panjangnya. Dalam kuliah reduksi dimensi nanti, kita akan melihat hubungan Mahalanobis distance dengan Principal Component Analysis.</p>
-<p><a href="https://github.com/aliakbars/uai-dm/raw/master/04-scraping.pdf">Salindia minggu ke-4: Scraping</a></p>
-<p>Terkadang, kita perlu untuk mengambil sendiri data dari laman web. Beberapa web yang tidak menyediakan API mengharuskan kita untuk membuka sendiri laman tersebut lalu mengekstraksi informasinya satu per satu. Dengan melakukan <em>scraping</em>, kita bisa mengotomasi proses tersebut. Python mempunyai pustaka untuk melakukan hal tersebut dengan cukup mudah: Requests dan Beautiful Soup. Namun, ingat bahwa <em>scraping</em> sejatinya sering berada di posisi abu-abu - antara boleh atau tidak. Jadi, <em>be responsible</em>!</p>
 <h2 id="tugas-1">Tugas 1<a class="headerlink" href="#tugas-1" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/aliakbars/uai-dm/blob/master/tugas-1.pdf">Deskripsi Tugas 1</a></p>
-<p>Dalam tugas ini, Anda diminta untuk melakukan <em>scraping</em> dan membuat tabel dari hasilnya. Tugas ini dibuat dalam satu file <strong>Jupyter notebook</strong> dan diberi nama <strong>tugas1_NIM.ipynb</strong>. Catatan: Tabel yang dimaksud dalam soal adalah <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html"><code>pandas.DataFrame</code></a>.</p>
-<div class="admonition warning">
-<p class="admonition-title">Tenggat</p>
-<p>Jumat, 11 Oktober 2019, pukul 23.55 WIB</p>
-</div>
-<h2 id="visualisasi-data-dan-storytelling">Visualisasi Data dan Storytelling<a class="headerlink" href="#visualisasi-data-dan-storytelling" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/aliakbars/uai-dm/raw/master/05-visualisasi.pdf">Salindia minggu ke-5: Visualisasi</a></p>
-<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/lab1.ipynb">Praktikum 1: Eksplorasi dan Visualisasi</a></p>
-<p>Visualisasikan data Anda! Visualisasi data dapat membantu dalam memahami tren dan pola-pola menarik dari data Anda. Anda mungkin perlu melihat salindia <a href="https://nces.ed.gov/forum/pdf/NCES_table_design.pdf">ini</a> untuk membantu merancang tabel dan grafik dengan lebih baik. Materi kali ini juga dilengkapi dengan praktikum yang diharapkan dapat memberikan gambaran tentang penggunaan konsep-konsep yang disampaikan di minggu ini.</p>
-<p><a href="https://docs.google.com/presentation/d/19JSt8f6iUpWnAIlEGTmbRFaPm9AHeZfXPrFDxIqcVpM/edit?usp=sharing">Salindia minggu ke-6: Storytelling with Data</a></p>
-<p>Meski analisis yang Anda lakukan sudah sangat mendalam, audiens bisa jadi menganggap itu tidak penting kalau Anda tidak bisa menyusun ceritanya dengan baik. Pertemuan minggu ini membahas tentang poin-poin yang perlu diperhatikan dalam bercerita dengan data. Akan ada banyak video yang dapat disaksikan dalam salindia minggu ini.</p>
-<h2 id="tugas-2">Tugas 2<a class="headerlink" href="#tugas-2" title="Permanent link">&para;</a></h2>
-<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas2.ipynb">Notebook Tugas 2</a></p>
-<p><a href="https://github.com/aliakbars/uai-dm/raw/master/dataset/spam.p">Dataset Tugas 2</a></p>
-<p>Dalam tugas ini, Anda diminta untuk melakukan eksplorasi, analisis, dan visualisasi terhadap dataset spam dari Instagram. Tugas ini didasarkan pada tugas klasifikasi spam yang dilakukan dalam makalah oleh Septiandri dan Wibisono (2016).</p>
-<div class="admonition warning">
-<p class="admonition-title">Tenggat</p>
-<p>Minggu, 27 Oktober 2019, pukul 23.55 WIB</p>
-</div>
-<h2 id="model-linear">Model Linear<a class="headerlink" href="#model-linear" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/aliakbars/uai-dm/raw/master/07-regresi.pdf">Salindia minggu ke-7: Regresi Linear</a></p>
-<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/lab3.ipynb">Praktikum 3: Model Linear</a></p>
-<p>Materi minggu ini berisikan salah satu tugas dalam <em>machine learning</em>: regresi. Anda akan dikenalkan dengan regresi linear sederhana dan beberapa pengembangannya. Berbeda dengan materi di Pengenalan Pola, regresi kali ini akan membahas diagnosis dari model dan beberapa masalah yang mungkin terjadi saat melakukan pemodelan regresi linear.</p>
-<h2 id="tugas-3">Tugas 3<a class="headerlink" href="#tugas-3" title="Permanent link">&para;</a></h2>
-<p><a href="https://colab.research.google.com/github/aliakbars/uai-dm/blob/master/scripts/tugas3c.ipynb">Notebook Tugas 3</a></p>
-<p>Dalam tugas ini, Anda diminta untuk melakukan inferensi dengan regresi linear terhadap data diabetes. Terdapat beberapa pertanyaan konseptual juga yang harus Anda jawab dalam tugas ini untuk menguji pemahaman Anda.</p>
-<div class="admonition warning">
-<p class="admonition-title">Tenggat</p>
-<p>Senin, 25 November 2019, pukul 23.55 WIB</p>
-</div>
+<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas1b.ipynb">Notebook Tugas 1</a></p>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/dataset/movie_metadata.csv">Dataset Tugas 1</a></p>
+<p>Dalam tugas ini, Anda diminta untuk melakukan eksplorasi, analisis, dan visualisasi terhadap dataset yang berisi film dari IMDB. Anda akan mencari tahu hal-hal yang berkaitan dengan kesuksesan sebuah film. Berdasarkan perhitungan <em>similarity</em>, Anda akan diminta juga melakukan klasifikasi sederhana terhadap data baru yang diberikan. Tugas ini dikumpulkan melalui situs e-learning UAI.</p>
+<!-- !!! warning "Tenggat"
+    Kamis, 12 Oktober 2017, pukul 23.55 WIB -->
+
 <h2 id="klasifikasi">Klasifikasi<a class="headerlink" href="#klasifikasi" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/aliakbars/uai-dm/raw/master/08-dt.pdf">Salindia minggu ke-8: Decision Trees</a></p>
-<p><a href="https://github.com/aliakbars/uai-dm/raw/master/09-ensemble.pdf">Salindia minggu ke-9: Ensemble Learning</a></p>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/04-naivebayes.pdf">Salindia minggu ke-4: Klasifikasi: Naive Bayes</a></p>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/latihan-1.pdf">Latihan 1: Naive Bayes</a></p>
+<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/lab2.ipynb">Praktikum 2: Klasifikasi</a></p>
+<p>Salah satu metode klasifikasi yang cukup sederhana tetapi berfungsi dengan cukup baik pada praktiknya adalah Naive Bayes. Metode ini tidak memerlukan <em>hyperparameter tuning</em> seperti banyak metode klasifikasi yang lebih kompleks lainnya. Idenya pun didasari pada asumsi naif bahwa setiap atribut <em>conditionally independent</em> jika diberikan kelasnya. Namun, asumsi ini ternyata bisa jadi efektif, seperti yang diteliti dalam makalah <a href="http://venus.unive.it/romanaz/complstat/hand_naive_bayes.pdf">ini</a>.</p>
+<p>Asumsi lain yang digunakan dalam algoritma ini adalah distribusi Gaussian yang dipakai untuk data yang kontinu. Untuk menyegarkan kembali ingatan Anda tentang materi distribusi Gaussian, Anda bisa melihat <a href="http://www.inf.ed.ac.uk/teaching/courses/mlpr/2016/notes/w2b_univariate_gaussian.html">tulisan Iain Murray</a> (2016). Selain itu, sangat disarankan untuk melihat video dari <a href="https://www.youtube.com/watch?v=72QjzHnYvL0&amp;list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo&amp;index=13&quot;">Stats 110</a> dari Harvard University untuk membantu pemahaman Anda tentang probabilitas dan peubah acak. Beberapa orang juga menyarankan untuk membaca ulasan materi probabilitas dan statistika dari buku Deep Learning (Goodfellow et al., 2016). Materinya bisa Anda akses di <a href="http://www.deeplearningbook.org/contents/prob.html">sini</a>.</p>
+<p>Berikut ini adalah <a href="https://www.youtube.com/watch?v=os-NaA0ldGs&amp;list=PLBv09BD7ez_6CxkuiFTbL3jsn2Qd1IU7B">video</a> oleh Victor Lavrenko yang dapat Anda gunakan untuk membantu pemahaman Anda terhadap materi Naive Bayes.</p>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/05-dt.pdf">Salindia minggu ke-5: Klasifikasi: Decision Trees</a></p>
 <p>Pohon keputusan merupakan algoritma klasifikasi yang memudahkan pengguna untuk memahami jalannya proses klasifikasi suatu data. Bagi <em>end-user</em>, tidak perlu pemahaman statistika yang mendalam untuk tahu apa yang terjadi. Di sisi lain, algoritma ini bisa jadi cukup efektif. Terbukti, pengembangan algoritma ini, yaitu XGBoost dan Random Forest, sering dipakai di berbagai kompetisi dan makalah <em>data mining</em>. Materi minggu ini membahas tentang bagaimana kita bisa membentuk pohon keputusan untuk melakukan klasifikasi, termasuk bagaimana kita dapat mengevaluasi hasil klasifikasi tersebut.</p>
-<h2 id="metode-bayesian">Metode Bayesian<a class="headerlink" href="#metode-bayesian" title="Permanent link">&para;</a></h2>
-<p><a href="https://docs.google.com/presentation/d/17XmauQ0dNqRdY1eJrYIuo88opsyoM4M1VGRT9g0P-NU/edit?usp=sharing">Salindia minggu ke-10: Statistika Bayesian</a></p>
-<p><a href="https://colab.research.google.com/github/aliakbars/uai-dm/blob/master/scripts/labx.ipynb">Praktikum 4: Statistika Bayesian</a></p>
-<p>Statistika yang diajarkan di perkuliahan biasanya menggunakan pendekatan <em>frequentist</em>. Namun, interpretasi dari statistika <em>frequentist</em> tidak selalu intuitif dan membutuhkan berbagai uji hipotesis. Statistika Bayesian memberikan pendekatan berbeda untuk mengkuantifikasi ketidakyakinan (<em>uncertainty</em>) kita. Materi pekan ini akan mengenalkan konsep dasar statistika Bayesian dan penggunaan <em>probabilistic programming</em> untuk perhitungannya.</p>
-<h2 id="desain-eksperimen">Desain Eksperimen<a class="headerlink" href="#desain-eksperimen" title="Permanent link">&para;</a></h2>
-<p><a href="https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=94e52a8d-6557-48c4-b003-b5ec84d2a1e2">Video minggu ke-11: Experimental Design</a></p>
-<p><a href="https://github.com/cs109/2015/raw/master/Lectures/22ExperimentalDesign.pdf">Salindia minggu ke-11: Experimental Design</a></p>
-<p>Mulai minggu ini, kelas ini memberlakukan <em>flipped classroom</em>. Artinya, Anda diminta untuk menyimak video yang diberikan di situs ini sebelum datang ke kelas. Di dalam kelas, tidak akan ada materi baru yang dibahas, waktunya hanya akan dipakai untuk mendiskusikan hal-hal yang masih kurang jelas atau pertanyaan lain di luar itu. Minggu ini, Anda diminta untuk belajar tentang desain eksperimen.</p>
+<h2 id="tugas-2">Tugas 2<a class="headerlink" href="#tugas-2" title="Permanent link">&para;</a></h2>
+<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas2b.ipynb">Notebook Tugas 2</a></p>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/dataset/telco_churn.csv">Dataset Tugas 2</a></p>
+<p>Dalam tugas ini, Anda diminta untuk melakukan klasifikasi dengan menggunakan algoritma Naive Bayes dan Decision Trees. Anda diminta menjelaskan dan mengimplementasikan beberapa komponen dari kedua jenis algoritma tersebut. Silakan merujuk ke materi praktikum 2 untuk mencari beberapa referensi kode yang dapat digunakan. Tugas ini dikumpulkan melalui situs e-learning UAI.</p>
+<!-- !!! warning "Tenggat"
+    Kamis, 26 Oktober 2017, pukul 23.55 WIB -->
+
+<h2 id="evaluasi-model">Evaluasi Model<a class="headerlink" href="#evaluasi-model" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/06-evaluasi.pdf">Salindia minggu ke-6: Evaluasi Model</a></p>
+<p>Kapan akurasi tidak cukup lagi untuk dijadikan satu-satunya <em>metrics</em>? Bagaimana pula cara untuk menghasilkan model yang optimal? Kita akan mengeksplorasi penggunaan <em>metrics</em> lain yang dapat dihitung dari <em>confusion matrix</em>. Selain itu, akan dikenalkan juga ROC curves serta AUC yang biasa digunakan pada kasus <em>imbalanced dataset</em>.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tips</p>
-<p>Bagi yang ingin belajar lebih lanjut, silakan enroll ke kuliah <a href="https://www.coursera.org/learn/quantitative-methods">Quantitative Methods</a> di Coursera dan simak kuliah ketiga tentang Research Designs. Para pembaca buku bisa melihat Chapter 4 dari buku <a href="https://www.bitbybitbook.com/en/1st-ed/running-experiments/">Bit by Bit</a> oleh Matthew Salganik.</p>
+<p>Paper dari Pedro Domingos <a href="https://github.com/aliakbars/uai-dm/raw/master/machine-learning.pdf">ini</a> bisa menjadi awal yang baik bagi Anda untuk mempelajari tentang evaluasi algoritma <em>machine learning</em> secara umum.</p>
 </div>
+<h2 id="ulasan-materi">Ulasan Materi<a class="headerlink" href="#ulasan-materi" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/07-review.pdf">Salindia minggu ke-7: Ulasan Materi</a></p>
+<p>Minggu ini ada sedikit materi tambahan. Silakan cek kembali materi praktikum 2 untuk tambahan tentang klasifikasi dengan pohon keputusan. Kelas akan digunakan untuk mengulas materi yang telah lalu dan menyampaikan beberapa pengumuman terkait ujian dan tugas.</p>
+<h2 id="model-linear">Model Linear<a class="headerlink" href="#model-linear" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/08-linear.pdf">Salindia minggu ke-8: Model Linear</a></p>
+<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/lab3.ipynb">Praktikum 3: Model Linear</a></p>
+<p>Setelah berkutat dengan beberapa algoritma klasifikasi, materi minggu ini berisikan salah satu tugas dalam <em>machine learning</em> yang lain: regresi. Anda akan dikenalkan dengan regresi linear sederhana dan beberapa pengembangannya. Selain itu, Anda juga akan melihat bagaimana ide regresi linear kemudian bisa diubah untuk kebutuhan klasifikasi. Dalam materi minggu ini, Anda akan melihat dengan lebih jelas perbedaan model generatif dan diskriminatif.</p>
+<h2 id="tugas-3">Tugas 3<a class="headerlink" href="#tugas-3" title="Permanent link">&para;</a></h2>
+<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas3b.ipynb">Notebook Tugas 3</a></p>
+<p>Dalam tugas ini, Anda diminta untuk melakukan inferensi dengan regresi linear terhadap data diabetes. Terdapat beberapa pertanyaan konseptual juga yang harus Anda jawab dalam tugas ini untuk menguji pemahaman Anda.</p>
+<!-- !!! warning "Tenggat"
+    Rabu, 6 Desember 2017, pukul 23.55 WIB -->
+
+<h2 id="model-berdasarkan-perhitungan-jarak">Model Berdasarkan Perhitungan Jarak<a class="headerlink" href="#model-berdasarkan-perhitungan-jarak" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/09-knn.pdf">Salindia minggu ke-9: k-Nearest Neighbours &amp; k-Means Clustering</a></p>
+<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/lab4.ipynb">Praktikum 4: k-Nearest Neighbours &amp; k-Means</a></p>
+<p>Tidak ada hubungan yang khusus antara kedua algoritma yang dikenalkan minggu ini, kecuali keduanya didasarkan pada perhitungan jarak antarobjek. k-NN merupakan algoritma yang bisa digunakan untuk klasifikasi dan juga regresi (<em>supervised learning</em>), semenara k-Means merupakan algoritma untuk <em>clustering</em> (<em>unsupervised learning</em>). Akan ada beberapa algoritma <em>clustering</em> lain yang akan dikenalakan di materi selanjutnya setelah k-Means.</p>
 <h2 id="clustering">Clustering<a class="headerlink" href="#clustering" title="Permanent link">&para;</a></h2>
-<p><a href="https://www.youtube.com/watch?v=urbalppysi0&amp;list=PLBv09BD7ez_6VX12puSF0Ep6NluI9vwoX">Video minggu ke-12: Hierarchical Clustering</a></p>
-<p><a href="https://github.com/aliakbars/uai-dm/raw/master/12-hierarchical.pdf">Salindia minggu ke-12: Hierarchical Clustering</a></p>
-<p>Materi minggu ini merupakan pengembangan dari algoritma k-Means. Anda juga akan melihat bahwa alih-alih menentukan nilai K dari awal, kita bisa membuat level granularity dari klaster yang dihasilkan dengan membuat hierarki.</p>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/10-gmm.pdf">Salindia minggu ke-10: Gaussian Mixture Models &amp; Hierarchical Clustering</a></p>
+<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/lab5.ipynb">Praktikum 5: Gaussian Mixture Models</a></p>
+<p>Materi minggu ini merupakan pengembangan dari algoritma k-Means. Dengan menggunakan pendekatan parametrik, kita bisa menghasilkan clustering dengan model generatif. Lihat kembali tentang materi distribusi Gaussian untuk memahami dengan lebih baik materi minggu ini. Selain itu, kita juga akan melihat bahwa alih-alih menentukan nilai K dari awal, kita bisa membuat level granularity dari klaster yang dihasilkan dengan membuat hierarki.</p>
 <h2 id="tugas-4">Tugas 4<a class="headerlink" href="#tugas-4" title="Permanent link">&para;</a></h2>
-<p><a href="https://colab.research.google.com/github/aliakbars/uai-dm/blob/master/scripts/tugas4c.ipynb">Notebook Tugas 4</a></p>
-<p>Dalam tugas ini, Anda diminta untuk melakukan inferensi Bayesian pada dua kasus. Gunakan pustaka <a href="https://docs.pymc.io/">PyMC3</a> untuk melakukan pemodelan. Anda juga dapat melihat contoh yang ada di dokumentasi tersebut sebagai referensi</p>
-<div class="admonition warning">
-<p class="admonition-title">Tenggat</p>
-<p>Rabu, 1 Januari 2020, pukul 23.55 WIB</p>
-</div>
+<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas4b.ipynb">Notebook Tugas 4</a></p>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/dataset/menu.csv">Dataset Tugas 4</a></p>
+<p>Dalam tugas ini, Anda diminta untuk melakukan klasifikasi dengan algoritma yang berdasarkan pada perhitungan jarak. Anda juga akan mengeksplorasi pemanfaatan algoritma <em>clustering</em> untuk melakukan klasifikasi.</p>
+<!-- !!! warning "Tenggat"
+    Rabu, 27 Desember 2017, pukul 23.55 WIB -->
+
+<h2 id="reduksi-dimensi">Reduksi Dimensi<a class="headerlink" href="#reduksi-dimensi" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/11-dim.pdf">Salindia minggu ke-11: Dimensionality Reduction</a></p>
+<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/lab6.ipynb">Praktikum 6: Dimensionality Reduction</a></p>
+<p>Dimensionality reduction merupakan bagian dari <em>unsupervised learning</em> yang biasanya digunakan untuk bermacam hal, misalnya membantu visualisasi, mempercepat proses klasifikasi, hingga <em>noise filtering</em>. Minggu ini, kita akan membahas salah satu algoritma yang umum digunakan untuk reduksi dimensi, yaitu Principal Component Analysis (PCA).</p>
+<h2 id="analisis-keranjang-belanja">Analisis Keranjang Belanja<a class="headerlink" href="#analisis-keranjang-belanja" title="Permanent link">&para;</a></h2>
+<p>Materi minggu ke-12 akan diisi oleh Ir. Endang Ripmiatin, M.T.</p>
 <h2 id="sistem-rekomendasi">Sistem Rekomendasi<a class="headerlink" href="#sistem-rekomendasi" title="Permanent link">&para;</a></h2>
 <p><a href="https://github.com/aliakbars/uai-dm/raw/master/13-recsys.pdf">Salindia minggu ke-13: Sistem Rekomendasi</a></p>
 <p>Materi ini dapat dianggap sebagai salah satu implementasi dari semua materi yang telah diberikan sebelumnya. Kita akan mengulas kembali konsep jarak antarobjek, klasifikasi, <em>clustering</em>, dan reduksi dimensi dalam membuat sistem rekomendasi. Materi ini sekaligus jadi materi terakhir dalam kuliah ini. Silakan baca lebih lanjut di buku Mining of Massive Datasets pada Chapter 9 untuk tahu detailnya.</p>
-<!-- ## Tugas 5
-
-[Notebook Tugas 5](https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas5.ipynb)
-
-[Dataset Tugas 5: User-Artist](https://github.com/aliakbars/uai-dm/raw/master/dataset/lastfm/user_artists.dat)
-
-Anda diminta untuk membangun dan membandingkan beberapa metode sistem rekomendasi. -->
-
+<h2 id="tugas-5">Tugas 5<a class="headerlink" href="#tugas-5" title="Permanent link">&para;</a></h2>
+<p><a href="https://nbviewer.jupyter.org/github/aliakbars/uai-dm/blob/master/scripts/tugas5.ipynb">Notebook Tugas 5</a></p>
+<p><a href="https://github.com/aliakbars/uai-dm/raw/master/dataset/lastfm/user_artists.dat">Dataset Tugas 5: User-Artist</a></p>
+<p>Anda diminta untuk membangun dan membandingkan beberapa metode sistem rekomendasi.</p>
 <!-- !!! warning "Tenggat"
     Rabu, 17 Januari 2018, pukul 23.55 WIB -->
                 
                   
+                
                 
               
               
@@ -962,41 +999,36 @@ Anda diminta untuk membangun dan membandingkan beberapa metode sistem rekomendas
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2017-2019 Ali Akbar Septiandri
+            Copyright &copy; 2017-2020 Ali Akbar Septiandri
           </div>
         
         powered by
-        <a href="https://www.mkdocs.org">MkDocs</a>
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
         and
-        <a href="https://squidfunk.github.io/mkdocs-material/">
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
           Material for MkDocs</a>
       </div>
       
-        
   <div class="md-footer-social">
     <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
     
-      <a href="https://github.com/aliakbars" class="md-footer-social__link fa fa-github"></a>
+      <a href="https://twitter.com/aliakbars" target="_blank" rel="noopener" title="twitter" class="md-footer-social__link fa fa-twitter"></a>
     
-      <a href="https://www.linkedin.com/in/aaseptiandri/" class="md-footer-social__link fa fa-linkedin"></a>
+      <a href="https://github.com/aliakbars" target="_blank" rel="noopener" title="github" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://www.linkedin.com/in/aaseptiandri/" target="_blank" rel="noopener" title="linkedin" class="md-footer-social__link fa fa-linkedin"></a>
     
   </div>
 
-      
     </div>
   </div>
 </footer>
       
     </div>
     
-      <script src="../assets/javascripts/application.9e1f3b71.js"></script>
+      <script src="../assets/javascripts/application.c33a9706.js"></script>
       
-      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
-      
-    
-    
-      
-        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-93695540-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");if(Array.prototype.map.call(links,function(a){a.host!=document.location.host&&a.addEventListener("click",function(){var e=a.getAttribute("data-md-action")||"follow";ga("send","event","outbound",e,a.href)})}),document.forms.search){var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}</script>
+      <script>app.initialize({version:"1.1",url:{base:".."}})</script>
       
     
   </body>
