@@ -4,12 +4,14 @@ description: Situs untuk belajar tentang kecerdasan buatan/artificial intelligen
 
 Staf pengajar, Teknik Informatika, Fakultas Sains dan Teknologi, [Universitas Al Azhar Indonesia](https://uai.ac.id/)
 
+Hubungi saya melalui aliakbar[at]if.uai.ac.id.
+
 ## Topik Penelitian
 
 - **Artificial Intelligence**
 - **Machine Learning:** image quality assessment with deep learning
-- **Medical Informatics:** tuberculosis detection from microscopy images, applied machine learning for mass verbal screening improvement
-- **Natural Language Processing:** sentence correction
+- **Medical Informatics:** microscopy image processing, applied machine learning for mass verbal screening improvement
+- **Natural Language Processing:** sentence correction, aspect-based sentiment analysis
 
 ## Pendidikan
 
@@ -30,25 +32,3 @@ Staf pengajar, Teknik Informatika, Fakultas Sains dan Teknologi, [Universitas Al
 - **Identifikasi Opinion Leader pada Twitter dengan Teknik Pembelajaran Mesin**<br>
     **AA Septiandri**, A Purwarianti<br>
     Konferensi Nasional Informatika 2013, Bandung, Indonesia
-
-## Presentasi
-
-- [**How Technology Can Change Food Logistics**](https://speakerdeck.com/aliakbars/how-technology-can-change-food-logistics)<br>
-  Unpad ISLICamp<br>
-  Lembang, April 2018
-
-- [**Data Science for Business**](https://speakerdeck.com/aliakbars/data-science-for-business)<br>
-    Astra Graphia IT<br>
-    Jakarta, Oktober 2017
-
-- **TBDeCare, Innovation in tuberculosis detection and care**<br>
-    4th CID Global Summit<br>
-    Jakarta, Agustus 2017
-
-- [**Our Lives in Data**](https://speakerdeck.com/aliakbars/our-lives-in-data)<br>
-    Kantor Staf Presiden<br>
-    Jakarta, Februari 2017
-
-- [**Data Mining 101**](https://speakerdeck.com/aliakbars/data-mining-101)<br>
-    Python ID Meetup<br>
-    Jakarta, Februari 2015
